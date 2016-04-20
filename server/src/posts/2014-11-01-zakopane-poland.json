@@ -1,0 +1,186 @@
+{
+    "title": "Zakopane, Poland",
+    "date": "2014-11-01",
+    "blocks": [
+        {
+            "elements": [
+                {
+                    "type": "image",
+                    "assets": [
+                        {
+                            "file": "https://s3-eu-west-1.amazonaws.com/samefourchords.com-images/2014-11-01-zakopane-poland/Untitled_HDR2 - Version 2.jpg",
+                            "width": 2866,
+                            "height": 2866
+                        },
+                        {
+                            "file": "https://s3-eu-west-1.amazonaws.com/samefourchords.com-images/2014-11-01-zakopane-poland/Untitled_HDR2.jpg",
+                            "isMaster": true,
+                            "width": 4951,
+                            "height": 2785
+                        }
+                    ]
+                },
+                {
+                    "type": "image",
+                    "assets": [
+                        {
+                            "file": "https://s3-eu-west-1.amazonaws.com/samefourchords.com-images/2014-11-01-zakopane-poland/IMG_6864 - Version 2.jpg",
+                            "width": 3437,
+                            "height": 3437
+                        },
+                        {
+                            "file": "https://s3-eu-west-1.amazonaws.com/samefourchords.com-images/2014-11-01-zakopane-poland/IMG_6864.jpg",
+                            "isMaster": true,
+                            "width": 5472,
+                            "height": 3077
+                        }
+                    ]
+                },
+                {
+                    "type": "image",
+                    "assets": [
+                        {
+                            "file": "https://s3-eu-west-1.amazonaws.com/samefourchords.com-images/2014-11-01-zakopane-poland/IMG_6865 - Version 2.jpg",
+                            "width": 3301,
+                            "height": 3301
+                        },
+                        {
+                            "file": "https://s3-eu-west-1.amazonaws.com/samefourchords.com-images/2014-11-01-zakopane-poland/IMG_6865.jpg",
+                            "isMaster": true,
+                            "width": 5353,
+                            "height": 3011
+                        }
+                    ]
+                },
+                {
+                    "type": "image",
+                    "assets": [
+                        {
+                            "file": "https://s3-eu-west-1.amazonaws.com/samefourchords.com-images/2014-11-01-zakopane-poland/IMG_6866.jpg",
+                            "isMaster": true,
+                            "width": 2113,
+                            "height": 2113
+                        }
+                    ]
+                },
+                {
+                    "type": "image",
+                    "assets": [
+                        {
+                            "file": "https://s3-eu-west-1.amazonaws.com/samefourchords.com-images/2014-11-01-zakopane-poland/IMG_6873 - Version 2.jpg",
+                            "width": 3648,
+                            "height": 3648
+                        },
+                        {
+                            "file": "https://s3-eu-west-1.amazonaws.com/samefourchords.com-images/2014-11-01-zakopane-poland/IMG_6873.jpg",
+                            "isMaster": true,
+                            "width": 5098,
+                            "height": 2866
+                        }
+                    ]
+                },
+                {
+                    "type": "image",
+                    "assets": [
+                        {
+                            "file": "https://s3-eu-west-1.amazonaws.com/samefourchords.com-images/2014-11-01-zakopane-poland/IMG_6905.jpg",
+                            "isMaster": true,
+                            "width": 3178,
+                            "height": 3178
+                        }
+                    ]
+                },
+                {
+                    "type": "image",
+                    "assets": [
+                        {
+                            "file": "https://s3-eu-west-1.amazonaws.com/samefourchords.com-images/2014-11-01-zakopane-poland/IMG_6910 - Version 2.jpg",
+                            "width": 3648,
+                            "height": 3648
+                        },
+                        {
+                            "file": "https://s3-eu-west-1.amazonaws.com/samefourchords.com-images/2014-11-01-zakopane-poland/IMG_6910.jpg",
+                            "isMaster": true,
+                            "width": 5472,
+                            "height": 3078
+                        }
+                    ]
+                },
+                {
+                    "type": "image",
+                    "assets": [
+                        {
+                            "file": "https://s3-eu-west-1.amazonaws.com/samefourchords.com-images/2014-11-01-zakopane-poland/IMG_6934 - Version 2.jpg",
+                            "width": 3648,
+                            "height": 3648
+                        },
+                        {
+                            "file": "https://s3-eu-west-1.amazonaws.com/samefourchords.com-images/2014-11-01-zakopane-poland/IMG_6934.jpg",
+                            "isMaster": true,
+                            "width": 5472,
+                            "height": 3077
+                        }
+                    ]
+                },
+                {
+                    "type": "image",
+                    "assets": [
+                        {
+                            "file": "https://s3-eu-west-1.amazonaws.com/samefourchords.com-images/2014-11-01-zakopane-poland/IMG_6945.jpg",
+                            "isMaster": true,
+                            "width": 3648,
+                            "height": 3648
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Morskie Oko",
+            "elements": [
+                {
+                    "type": "text",
+                    "body": "<p>One of the most popular things to do in Zakopane is to see Morskie Oko, a lake located deep within the Tatra Mountains, on the Poland-Slovakia border. The name translates to “Eye of the Sea”.</p><p>Motor vehicles on the road leading up to the lake are prohibited. We took a bus as far as possible, and then walked for 2 hours before reaching the lake.</p>"
+                },
+                {
+                    "type": "image",
+                    "assets": [
+                        {
+                            "file": "https://s3-eu-west-1.amazonaws.com/samefourchords.com-images/2014-11-01-zakopane-poland/IMG_6962.jpg",
+                            "isMaster": true,
+                            "width": 5472,
+                            "height": 3648
+                        }
+                    ]
+                },
+                {
+                    "type": "image",
+                    "assets": [
+                        {
+                            "file": "https://s3-eu-west-1.amazonaws.com/samefourchords.com-images/2014-11-01-zakopane-poland/IMG_6977 - Version 2.jpg",
+                            "width": 3648,
+                            "height": 3648
+                        },
+                        {
+                            "file": "https://s3-eu-west-1.amazonaws.com/samefourchords.com-images/2014-11-01-zakopane-poland/IMG_6977.jpg",
+                            "isMaster": true,
+                            "width": 5472,
+                            "height": 3078
+                        }
+                    ]
+                },
+                {
+                    "type": "image",
+                    "assets": [
+                        {
+                            "file": "https://s3-eu-west-1.amazonaws.com/samefourchords.com-images/2014-11-01-zakopane-poland/IMG_6985.jpg",
+                            "isMaster": true,
+                            "width": 5179,
+                            "height": 2912
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

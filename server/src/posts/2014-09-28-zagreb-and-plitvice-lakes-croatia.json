@@ -1,0 +1,144 @@
+{
+    "title": "Zagreb and Plitvice Lakes, Croatia",
+    "date": "2014-09-28",
+    "blocks": [
+        {
+            "elements": [
+                {
+                    "type": "text",
+                    "body": "<p>Three weeks into travelling we arrived at our second destination – Zagreb, Croatia!</p>"
+                },
+                {
+                    "type": "image",
+                    "assets": [
+                        {
+                            "file": "https://s3-eu-west-1.amazonaws.com/samefourchords.com-images/2014-09-28-zagreb-and-plitvice-lakes-croatia/IMG_6362.jpg",
+                            "isMaster": true,
+                            "width": 3389,
+                            "height": 3389
+                        }
+                    ]
+                },
+                {
+                    "type": "image",
+                    "assets": [
+                        {
+                            "file": "https://s3-eu-west-1.amazonaws.com/samefourchords.com-images/2014-09-28-zagreb-and-plitvice-lakes-croatia/IMG_6390.jpg",
+                            "isMaster": true,
+                            "width": 3648,
+                            "height": 3648
+                        }
+                    ]
+                },
+                {
+                    "type": "image",
+                    "assets": [
+                        {
+                            "file": "https://s3-eu-west-1.amazonaws.com/samefourchords.com-images/2014-09-28-zagreb-and-plitvice-lakes-croatia/IMG_6397 - Version 2.jpg",
+                            "isMaster": true,
+                            "width": 2493,
+                            "height": 2493
+                        }
+                    ]
+                },
+                {
+                    "type": "image",
+                    "assets": [
+                        {
+                            "file": "https://s3-eu-west-1.amazonaws.com/samefourchords.com-images/2014-09-28-zagreb-and-plitvice-lakes-croatia/IMG_6403.jpg",
+                            "isMaster": true,
+                            "width": 2976,
+                            "height": 2976
+                        }
+                    ]
+                },
+                {
+                    "type": "image",
+                    "assets": [
+                        {
+                            "file": "https://s3-eu-west-1.amazonaws.com/samefourchords.com-images/2014-09-28-zagreb-and-plitvice-lakes-croatia/IMG_6410.jpg",
+                            "isMaster": true,
+                            "width": 5404,
+                            "height": 3040
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Plitvice Lakes",
+            "elements": [
+                {
+                    "type": "text",
+                    "body": "<p>We took a two-hour coach journey to <a href=\"http://en.wikipedia.org/wiki/Plitvice_Lakes_National_Park\">Plitvice Lakes</a>, one of Croatia’s most beautiful national parks.</p>"
+                },
+                {
+                    "type": "image",
+                    "assets": [
+                        {
+                            "file": "https://s3-eu-west-1.amazonaws.com/samefourchords.com-images/2014-09-28-zagreb-and-plitvice-lakes-croatia/IMG_6415.jpg",
+                            "isMaster": true,
+                            "width": 5472,
+                            "height": 3648
+                        }
+                    ]
+                },
+                {
+                    "type": "image",
+                    "assets": [
+                        {
+                            "file": "https://s3-eu-west-1.amazonaws.com/samefourchords.com-images/2014-09-28-zagreb-and-plitvice-lakes-croatia/IMG_6418.jpg",
+                            "isMaster": true,
+                            "width": 3329,
+                            "height": 3329
+                        }
+                    ]
+                },
+                {
+                    "type": "image",
+                    "assets": [
+                        {
+                            "file": "https://s3-eu-west-1.amazonaws.com/samefourchords.com-images/2014-09-28-zagreb-and-plitvice-lakes-croatia/IMG_6423.jpg",
+                            "isMaster": true,
+                            "width": 3482,
+                            "height": 1959
+                        }
+                    ]
+                },
+                {
+                    "type": "image",
+                    "assets": [
+                        {
+                            "file": "https://s3-eu-west-1.amazonaws.com/samefourchords.com-images/2014-09-28-zagreb-and-plitvice-lakes-croatia/IMG_6452.jpg",
+                            "isMaster": true,
+                            "width": 5232,
+                            "height": 3488
+                        }
+                    ]
+                },
+                {
+                    "type": "image",
+                    "assets": [
+                        {
+                            "file": "https://s3-eu-west-1.amazonaws.com/samefourchords.com-images/2014-09-28-zagreb-and-plitvice-lakes-croatia/IMG_6486.jpg",
+                            "isMaster": true,
+                            "width": 3013,
+                            "height": 3013
+                        }
+                    ]
+                },
+                {
+                    "type": "image",
+                    "assets": [
+                        {
+                            "file": "https://s3-eu-west-1.amazonaws.com/samefourchords.com-images/2014-09-28-zagreb-and-plitvice-lakes-croatia/IMG_6512.jpg",
+                            "isMaster": true,
+                            "width": 5472,
+                            "height": 3078
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
