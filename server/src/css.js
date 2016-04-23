@@ -15,13 +15,13 @@ body {
 }
 
 .element-group.image {
-    width: calc(100%);
+    width: calc(100% + 2rem);
     justify-content: center;
 }
 
 @media (max-width: 499px) {
     .element-group.image-square-pair {
-        width: calc(100%);
+        width: calc(100% + 2rem);
         flex-direction: column;
         align-items: center;
     }
@@ -29,7 +29,8 @@ body {
 
 @media (min-width: 500px) {
     .element-group.image-square-pair {
-        width: calc(1rem + 100%);
+        /* Gutter + body gutter */
+        width: calc(1rem + 2rem + 100%);
         margin-left: -1rem;
         justify-content: center;
     }
