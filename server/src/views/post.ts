@@ -1,7 +1,7 @@
 import { h } from 'virtual-dom';
 import mainView from './main';
 import * as URL from 'url';
-import { sortBy, last } from 'lodash';
+import { sortBy, last, range } from 'lodash';
 
 import { Post, PostImageElement, PostTextElement } from '../models';
 
@@ -77,7 +77,7 @@ const createModel = (post: Post): Model => {
                             const bucketPath = URL.parse(maybeMasterImage.file).path.replace(new RegExp(`^/${bucketName}`), '');
                             const heightAsProportionOfWidth = (maybeMasterImage.height / maybeMasterImage.width);
                             const widthAsProportionOfHeight = (maybeMasterImage.width / maybeMasterImage.height);
-                            const widths = [1024, 2048];
+                            const widths = range(300, maybeMasterImage.width, 150);
                             const sizes = widths.map(width => ({
                                 file: `${imgixOrigin}${bucketPath}?auto=format%2Ccompress&w=${width}`,
                                 width,
