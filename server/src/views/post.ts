@@ -48,8 +48,9 @@ class ImageElement extends Element {
     constructor(
         public heightAsProportionOfWidth: number,
         public widthAsProportionOfHeight: number,
-        public largestWidth: number,
-        public sizes: Array<ImageElementSize>,
+        public masterWidth: number,
+        public srcset: Array<ImageElementSize>,
+        public highDprSrcset: Array<ImageElementSize>,
         public firstSize: ImageElementSize
     ) { super() }
 }
@@ -77,20 +78,25 @@ const createModel = (post: Post): Model => {
                             const bucketPath = URL.parse(maybeMasterImage.file).path.replace(new RegExp(`^/${bucketName}`), '');
                             const heightAsProportionOfWidth = (maybeMasterImage.height / maybeMasterImage.width);
                             const widthAsProportionOfHeight = (maybeMasterImage.width / maybeMasterImage.height);
-                            const widths = range(300, maybeMasterImage.width, 150);
-                            const sizes = widths.map(width => ({
+                            const createWidths = (dpr: number) => range(320 * dpr, maybeMasterImage.width, 150 * dpr);
+                            const srcset = createWidths(1).map((width): ImageElementSize => ({
                                 file: `${imgixOrigin}${bucketPath}?auto=format%2Ccompress&w=${width}`,
-                                width,
-                                height: heightAsProportionOfWidth * width
+                                width
                             }));
+                            const highDprSrcset = createWidths(2).map((width): ImageElementSize => ({
+                                file: `${imgixOrigin}${bucketPath}?auto=format&w=${width}&q=25`,
+                                width
+                            }));
+
                             return new ImageElement(
                                 heightAsProportionOfWidth,
                                 widthAsProportionOfHeight,
                                 // TODO: Option?
-                                last(sortBy(widths)),
-                                sizes,
+                                maybeMasterImage.width,
+                                srcset,
+                                highDprSrcset,
                                 // TODO: Option?
-                                sizes[0]
+                                srcset[0]
                             );
                         }
                         else if (isPostTextElement(element)) {
@@ -126,18 +132,27 @@ const renderImage = (element: ImageElement) => (
         style: { maxWidth: `calc(${element.widthAsProportionOfHeight} * 100vh)` }
     }, [
         h('.image-element-inner-1', {
-            style: { maxWidth: `${element.largestWidth}px` }
+            style: { maxWidth: `${element.masterWidth}px` }
         }, [
             h('.image-element-inner-2', {
                 style: { paddingBottom: `${element.heightAsProportionOfWidth * 100}%` }
             }, [
-                h('img', {
-                    sizes: '100vw',
-                    src: element.firstSize.file,
-                    srcset: element.sizes
-                        .map(size => `${size.file} ${size.width}w`)
-                        .join(', ')
-                }, [])
+                h('picture', [
+                    h('source', {
+                        sizes: '100vw',
+                        media: "(min-resolution: 2dppx)",
+                        srcset: element.highDprSrcset
+                            .map(size => `${size.file} ${size.width}w`)
+                            .join(', ')
+                    }, []),
+                    h('source', {
+                        sizes: '100vw',
+                        srcset: element.srcset
+                            .map(size => `${size.file} ${size.width}w`)
+                            .join(', ')
+                    }, []),
+                    h('img', { src: element.firstSize.file }, [])
+                ])
             ])
         ])
     ])
