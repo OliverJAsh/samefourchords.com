@@ -19,7 +19,7 @@ body {
     justify-content: center;
 }
 
-@media (max-width: 499px) {
+@media (max-width: 767px) {
     .element-group.image-square-pair {
         width: calc(100% + 2rem);
         flex-direction: column;
@@ -27,7 +27,7 @@ body {
     }
 }
 
-@media (min-width: 500px) {
+@media (min-width: 768px) {
     .element-group.image-square-pair {
         /* Gutter + body gutter */
         width: calc(1rem + 2rem + 100%);
