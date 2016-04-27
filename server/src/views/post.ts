@@ -91,7 +91,7 @@ const createModel = (post: Post): Model => {
                                 width
                             }));
                             const highDprSrcset = createWidths(2).map((width): ImageElementSize => ({
-                                file: `${imgixOrigin}${bucketPath}?auto=format&w=${width}&q=25`,
+                                file: `${imgixOrigin}${bucketPath}?auto=format&w=${width}&q=25&usm=20`,
                                 width
                             }));
 
