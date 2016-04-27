@@ -49,6 +49,7 @@ class ImageElement extends Element {
         public heightAsProportionOfWidth: number,
         public widthAsProportionOfHeight: number,
         public masterWidth: number,
+        public aspectRatio: [number, number],
         public srcset: Array<ImageElementSize>,
         public highDprSrcset: Array<ImageElementSize>,
         public firstSize: ImageElementSize
@@ -61,6 +62,12 @@ const bucketName = 'samefourchords.com-images';
 // TODO: Class
 const isPostImageElement = (element: PostTextElement | PostImageElement): element is PostImageElement => element.type === 'image';
 const isPostTextElement = (element: PostTextElement | PostImageElement): element is PostTextElement => element.type === 'text';
+
+const getGcd = (a: number, b: number): number => b ? getGcd(b, a % b) : a;
+const simplify = (numerator: number, denominator: number): [number, number] => {
+  const gcd = getGcd(numerator,denominator);
+  return [numerator/gcd, denominator/gcd];
+};
 
 const createModel = (post: Post): Model => {
     return {
@@ -93,6 +100,7 @@ const createModel = (post: Post): Model => {
                                 widthAsProportionOfHeight,
                                 // TODO: Option?
                                 maybeMasterImage.width,
+                                simplify(maybeMasterImage.width, maybeMasterImage.height),
                                 srcset,
                                 highDprSrcset,
                                 // TODO: Option?
@@ -139,14 +147,14 @@ const renderImage = (element: ImageElement) => (
             }, [
                 h('picture', [
                     h('source', {
-                        sizes: '100vw',
+                        sizes: `(min-aspect-ratio: ${element.aspectRatio.join('/')}) ${element.widthAsProportionOfHeight * 100}vh, 100vw`,
                         media: "(min-resolution: 2dppx)",
                         srcset: element.highDprSrcset
                             .map(size => `${size.file} ${size.width}w`)
                             .join(', ')
                     }, []),
                     h('source', {
-                        sizes: '100vw',
+                        sizes: `(min-aspect-ratio: ${element.aspectRatio.join('/')}) ${element.widthAsProportionOfHeight * 100}vh, 100vw`,
                         srcset: element.srcset
                             .map(size => `${size.file} ${size.width}w`)
                             .join(', ')
