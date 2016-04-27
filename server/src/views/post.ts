@@ -146,21 +146,28 @@ const renderImage = (element: ImageElement) => (
                 style: { paddingBottom: `${element.heightAsProportionOfWidth * 100}%` }
             }, [
                 h('picture', [
-                    h('source', {
-                        sizes: `(min-aspect-ratio: ${element.aspectRatio.join('/')}) ${element.widthAsProportionOfHeight * 100}vh, 100vw`,
-                        media: "(min-resolution: 2dppx)",
+                    {
+                        media: '(min-resolution: 2dppx)',
                         srcset: element.highDprSrcset
-                            .map(size => `${size.file} ${size.width}w`)
-                            .join(', ')
-                    }, []),
-                    h('source', {
-                        sizes: `(min-aspect-ratio: ${element.aspectRatio.join('/')}) ${element.widthAsProportionOfHeight * 100}vh, 100vw`,
+                    },
+                    {
+                        media: '',
                         srcset: element.srcset
+                    }
+                ].map(({ media, srcset }) => (
+                    h('source', {
+                        sizes: [
+                            `(min-aspect-ratio: ${element.aspectRatio.join('/')}) ${element.widthAsProportionOfHeight * 100}vh`,
+                            '100vw'
+                        ].join(','),
+                        media,
+                        srcset: srcset
                             .map(size => `${size.file} ${size.width}w`)
                             .join(', ')
-                    }, []),
+                    }, [])
+                )).concat(
                     h('img', { src: element.firstSize.file }, [])
-                ])
+                ))
             ])
         ])
     ])
