@@ -118,7 +118,7 @@ siteRouter.get(postRegExp, (req, res, next) => {
         .catch(next);
 });
 
-siteRouter.use((req: express.Request, res: express.Response) => {
+siteRouter.use((req, res) => {
     const state = { statusCode: 404, message: http.STATUS_CODES[404] };
     const response = stringifyTree(errorView(state));
     res.status(404).send(response);
