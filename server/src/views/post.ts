@@ -159,7 +159,7 @@ const renderImage = (element: ImageElement) => (
                         sizes: [
                             `(min-aspect-ratio: ${element.aspectRatio.join('/')}) ${element.widthAsProportionOfHeight * 100}vh`,
                             '100vw'
-                        ].join(','),
+                        ].join(', '),
                         media,
                         srcset: srcset
                             .map(size => `${size.file} ${size.width}w`)
