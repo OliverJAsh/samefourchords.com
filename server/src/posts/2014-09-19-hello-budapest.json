@@ -6,101 +6,77 @@
             "elements": [
                 {
                     "type": "image",
-                    "assets": [
-                        {
-                            "file": "https://s3-eu-west-1.amazonaws.com/samefourchords.com-images/2014-09-19-hello-budapest/IMG_6206.jpg",
-                            "isMaster": true,
-                            "width": 4089,
-                            "height": 2300
-                        }
-                    ]
+                    "master": {
+                        "file": "https://s3-eu-west-1.amazonaws.com/samefourchords.com-images/2014-09-19-hello-budapest/IMG_6206.jpg",
+                        "width": 4089,
+                        "height": 2300
+                    }
                 },
                 {
                     "type": "image",
-                    "assets": [
-                        {
-                            "file": "https://s3-eu-west-1.amazonaws.com/samefourchords.com-images/2014-09-19-hello-budapest/IMG_6236.jpg",
-                            "isMaster": true,
-                            "width": 3596,
-                            "height": 3596
-                        }
-                    ]
+                    "master": {
+                        "file": "https://s3-eu-west-1.amazonaws.com/samefourchords.com-images/2014-09-19-hello-budapest/IMG_6236.jpg",
+                        "width": 3596,
+                        "height": 3596
+                    }
                 },
                 {
                     "type": "image",
-                    "assets": [
-                        {
-                            "file": "https://s3-eu-west-1.amazonaws.com/samefourchords.com-images/2014-09-19-hello-budapest/IMG_6253.jpg",
-                            "isMaster": true,
-                            "width": 4453,
-                            "height": 2503
-                        }
-                    ]
+                    "master": {
+                        "file": "https://s3-eu-west-1.amazonaws.com/samefourchords.com-images/2014-09-19-hello-budapest/IMG_6253.jpg",
+                        "width": 4453,
+                        "height": 2503
+                    }
                 },
                 {
                     "type": "image",
-                    "assets": [
-                        {
-                            "file": "https://s3-eu-west-1.amazonaws.com/samefourchords.com-images/2014-09-19-hello-budapest/IMG_6267 - Version 3.jpg",
-                            "isMaster": true,
-                            "width": 3869,
-                            "height": 2579
-                        }
-                    ]
+                    "master": {
+                        "file": "https://s3-eu-west-1.amazonaws.com/samefourchords.com-images/2014-09-19-hello-budapest/IMG_6267 - Version 3.jpg",
+                        "width": 3869,
+                        "height": 2579
+                    }
                 },
                 {
                     "type": "image",
-                    "assets": [
-                        {
-                            "file": "https://s3-eu-west-1.amazonaws.com/samefourchords.com-images/2014-09-19-hello-budapest/IMG_6280 - Version 2.jpg",
-                            "width": 3648,
-                            "height": 3648
-                        },
-                        {
-                            "file": "https://s3-eu-west-1.amazonaws.com/samefourchords.com-images/2014-09-19-hello-budapest/IMG_6280.jpg",
-                            "isMaster": true,
-                            "width": 5472,
-                            "height": 3648
-                        }
-                    ]
+                    "master": {
+                        "file": "https://s3-eu-west-1.amazonaws.com/samefourchords.com-images/2014-09-19-hello-budapest/IMG_6280.jpg",
+                        "width": 5472,
+                        "height": 3648
+                    },
+                    "portrait": {
+                        "file": "https://s3-eu-west-1.amazonaws.com/samefourchords.com-images/2014-09-19-hello-budapest/IMG_6280 - Version 2.jpg",
+                        "width": 3648,
+                        "height": 3648
+                    }
                 },
                 {
                     "type": "image",
-                    "assets": [
-                        {
-                            "file": "https://s3-eu-west-1.amazonaws.com/samefourchords.com-images/2014-09-19-hello-budapest/IMG_6286.jpg",
-                            "isMaster": true,
-                            "width": 5355,
-                            "height": 3570
-                        }
-                    ]
+                    "master": {
+                        "file": "https://s3-eu-west-1.amazonaws.com/samefourchords.com-images/2014-09-19-hello-budapest/IMG_6286.jpg",
+                        "width": 5355,
+                        "height": 3570
+                    }
                 },
                 {
                     "type": "image",
-                    "assets": [
-                        {
-                            "file": "https://s3-eu-west-1.amazonaws.com/samefourchords.com-images/2014-09-19-hello-budapest/IMG_6290.jpg",
-                            "isMaster": true,
-                            "width": 5414,
-                            "height": 3045
-                        }
-                    ]
+                    "master": {
+                        "file": "https://s3-eu-west-1.amazonaws.com/samefourchords.com-images/2014-09-19-hello-budapest/IMG_6290.jpg",
+                        "width": 5414,
+                        "height": 3045
+                    }
                 },
                 {
                     "type": "image",
-                    "assets": [
-                        {
-                            "file": "https://s3-eu-west-1.amazonaws.com/samefourchords.com-images/2014-09-19-hello-budapest/IMG_6301 - Version 2.jpg",
-                            "width": 3648,
-                            "height": 3648
-                        },
-                        {
-                            "file": "https://s3-eu-west-1.amazonaws.com/samefourchords.com-images/2014-09-19-hello-budapest/IMG_6301.jpg",
-                            "isMaster": true,
-                            "width": 5472,
-                            "height": 3648
-                        }
-                    ]
+                    "master": {
+                        "file": "https://s3-eu-west-1.amazonaws.com/samefourchords.com-images/2014-09-19-hello-budapest/IMG_6301.jpg",
+                        "width": 5472,
+                        "height": 3648
+                    },
+                    "portrait": {
+                        "file": "https://s3-eu-west-1.amazonaws.com/samefourchords.com-images/2014-09-19-hello-budapest/IMG_6301 - Version 2.jpg",
+                        "width": 3648,
+                        "height": 3648
+                    }
                 },
                 {
                     "type": "text",
@@ -108,14 +84,11 @@
                 },
                 {
                     "type": "image",
-                    "assets": [
-                        {
-                            "file": "https://s3-eu-west-1.amazonaws.com/samefourchords.com-images/2014-09-19-hello-budapest/IMG_6342.jpg",
-                            "isMaster": true,
-                            "width": 5472,
-                            "height": 3648
-                        }
-                    ]
+                    "master": {
+                        "file": "https://s3-eu-west-1.amazonaws.com/samefourchords.com-images/2014-09-19-hello-budapest/IMG_6342.jpg",
+                        "width": 5472,
+                        "height": 3648
+                    }
                 },
                 {
                     "type": "text",
@@ -123,14 +96,11 @@
                 },
                 {
                     "type": "image",
-                    "assets": [
-                        {
-                            "file": "https://s3-eu-west-1.amazonaws.com/samefourchords.com-images/2014-09-19-hello-budapest/IMG_6355.jpg",
-                            "isMaster": true,
-                            "width": 3013,
-                            "height": 3013
-                        }
-                    ]
+                    "master": {
+                        "file": "https://s3-eu-west-1.amazonaws.com/samefourchords.com-images/2014-09-19-hello-budapest/IMG_6355.jpg",
+                        "width": 3013,
+                        "height": 3013
+                    }
                 }
             ]
         }

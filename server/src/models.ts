@@ -12,14 +12,16 @@ interface PostJsonTextElement {
     body: string;
 }
 
+interface PostJsonImageElementAsset {
+    file: string;
+    isMaster: boolean;
+    width: number;
+    height: number;
+}
+
 interface PostJsonImageElement {
     type: 'image';
-    assets: Array<{
-        file: string;
-        isMaster: boolean;
-        width: number;
-        height: number;
-    }>
+    master: PostJsonImageElementAsset;
 }
 
 
@@ -40,12 +42,14 @@ export interface PostTextElement {
     body: string;
 }
 
+interface PostImageElementAsset {
+    file: string;
+    isMaster: boolean;
+    width: number;
+    height: number;
+}
+
 export interface PostImageElement {
     type: 'image';
-    assets: Array<{
-        file: string;
-        isMaster: boolean;
-        width: number;
-        height: number;
-    }>
+    master: PostImageElementAsset;
 }

@@ -80,12 +80,10 @@ const createModel = (post: Post): Model => {
                 block.elements
                     .map((element): Element => {
                         if (isPostImageElement(element)) {
-                            // TODO: Option?
-                            const maybeMasterImage = element.assets.find(asset => asset.isMaster);
-                            const bucketPath = URL.parse(maybeMasterImage.file).path.replace(new RegExp(`^/${bucketName}`), '');
-                            const heightAsProportionOfWidth = (maybeMasterImage.height / maybeMasterImage.width);
-                            const widthAsProportionOfHeight = (maybeMasterImage.width / maybeMasterImage.height);
-                            const createWidths = (dpr: number) => range(320 * dpr, maybeMasterImage.width, 150 * dpr);
+                            const bucketPath = URL.parse(element.master.file).path.replace(new RegExp(`^/${bucketName}`), '');
+                            const heightAsProportionOfWidth = (element.master.height / element.master.width);
+                            const widthAsProportionOfHeight = (element.master.width / element.master.height);
+                            const createWidths = (dpr: number) => range(320 * dpr, element.master.width, 150 * dpr);
                             const srcset = createWidths(1).map((width): ImageElementSize => ({
                                 file: `${imgixOrigin}${bucketPath}?auto=format%2Ccompress&w=${width}`,
                                 width
@@ -99,8 +97,8 @@ const createModel = (post: Post): Model => {
                                 heightAsProportionOfWidth,
                                 widthAsProportionOfHeight,
                                 // TODO: Option?
-                                maybeMasterImage.width,
-                                simplify(maybeMasterImage.width, maybeMasterImage.height),
+                                element.master.width,
+                                simplify(element.master.width, element.master.height),
                                 srcset,
                                 highDprSrcset,
                                 // TODO: Option?

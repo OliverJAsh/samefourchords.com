@@ -7,62 +7,50 @@
             "elements": [
                 {
                     "type": "image",
-                    "assets": [
-                        {
-                            "file": "https://s3-eu-west-1.amazonaws.com/samefourchords.com-images/2014-12-04-edinburgh-scotland-bamburgh-england//IMG_7040 - Version 2.jpg",
-                            "width": 3470,
-                            "height": 3470
-                        },
-                        {
-                            "file": "https://s3-eu-west-1.amazonaws.com/samefourchords.com-images/2014-12-04-edinburgh-scotland-bamburgh-england//IMG_7040.jpg",
-                            "isMaster": true,
-                            "width": 5312,
-                            "height": 2987
-                        }
-                    ]
+                    "master": {
+                        "file": "https://s3-eu-west-1.amazonaws.com/samefourchords.com-images/2014-12-04-edinburgh-scotland-bamburgh-england//IMG_7040.jpg",
+                        "width": 5312,
+                        "height": 2987
+                    },
+                    "portrait": {
+                        "file": "https://s3-eu-west-1.amazonaws.com/samefourchords.com-images/2014-12-04-edinburgh-scotland-bamburgh-england//IMG_7040 - Version 2.jpg",
+                        "width": 3470,
+                        "height": 3470
+                    }
                 },
                 {
                     "type": "image",
-                    "assets": [
-                        {
-                            "file": "https://s3-eu-west-1.amazonaws.com/samefourchords.com-images/2014-12-04-edinburgh-scotland-bamburgh-england//IMG_7046 - Version 2.jpg",
-                            "width": 3648,
-                            "height": 3648
-                        },
-                        {
-                            "file": "https://s3-eu-west-1.amazonaws.com/samefourchords.com-images/2014-12-04-edinburgh-scotland-bamburgh-england//IMG_7046.jpg",
-                            "isMaster": true,
-                            "width": 5472,
-                            "height": 3648
-                        }
-                    ]
+                    "master": {
+                        "file": "https://s3-eu-west-1.amazonaws.com/samefourchords.com-images/2014-12-04-edinburgh-scotland-bamburgh-england//IMG_7046.jpg",
+                        "width": 5472,
+                        "height": 3648
+                    },
+                    "portrait": {
+                        "file": "https://s3-eu-west-1.amazonaws.com/samefourchords.com-images/2014-12-04-edinburgh-scotland-bamburgh-england//IMG_7046 - Version 2.jpg",
+                        "width": 3648,
+                        "height": 3648
+                    }
                 },
                 {
                     "type": "image",
-                    "assets": [
-                        {
-                            "file": "https://s3-eu-west-1.amazonaws.com/samefourchords.com-images/2014-12-04-edinburgh-scotland-bamburgh-england//IMG_7048 - Version 2.jpg",
-                            "width": 3354,
-                            "height": 3354
-                        },
-                        {
-                            "file": "https://s3-eu-west-1.amazonaws.com/samefourchords.com-images/2014-12-04-edinburgh-scotland-bamburgh-england//IMG_7048.jpg",
-                            "isMaster": true,
-                            "width": 5468,
-                            "height": 3074
-                        }
-                    ]
+                    "master": {
+                        "file": "https://s3-eu-west-1.amazonaws.com/samefourchords.com-images/2014-12-04-edinburgh-scotland-bamburgh-england//IMG_7048.jpg",
+                        "width": 5468,
+                        "height": 3074
+                    },
+                    "portrait": {
+                        "file": "https://s3-eu-west-1.amazonaws.com/samefourchords.com-images/2014-12-04-edinburgh-scotland-bamburgh-england//IMG_7048 - Version 2.jpg",
+                        "width": 3354,
+                        "height": 3354
+                    }
                 },
                 {
                     "type": "image",
-                    "assets": [
-                        {
-                            "file": "https://s3-eu-west-1.amazonaws.com/samefourchords.com-images/2014-12-04-edinburgh-scotland-bamburgh-england//IMG_7052.jpg",
-                            "isMaster": true,
-                            "width": 5251,
-                            "height": 2977
-                        }
-                    ]
+                    "master": {
+                        "file": "https://s3-eu-west-1.amazonaws.com/samefourchords.com-images/2014-12-04-edinburgh-scotland-bamburgh-england//IMG_7052.jpg",
+                        "width": 5251,
+                        "height": 2977
+                    }
                 }
             ]
         },
@@ -75,84 +63,66 @@
                 },
                 {
                     "type": "image",
-                    "assets": [
-                        {
-                            "file": "https://s3-eu-west-1.amazonaws.com/samefourchords.com-images/2014-12-04-edinburgh-scotland-bamburgh-england//IMG_7070 - Version 2.jpg",
-                            "width": 3648,
-                            "height": 3648
-                        },
-                        {
-                            "file": "https://s3-eu-west-1.amazonaws.com/samefourchords.com-images/2014-12-04-edinburgh-scotland-bamburgh-england//IMG_7070.jpg",
-                            "isMaster": true,
-                            "width": 5471,
-                            "height": 3076
-                        }
-                    ]
+                    "master": {
+                        "file": "https://s3-eu-west-1.amazonaws.com/samefourchords.com-images/2014-12-04-edinburgh-scotland-bamburgh-england//IMG_7070.jpg",
+                        "width": 5471,
+                        "height": 3076
+                    },
+                    "portrait": {
+                        "file": "https://s3-eu-west-1.amazonaws.com/samefourchords.com-images/2014-12-04-edinburgh-scotland-bamburgh-england//IMG_7070 - Version 2.jpg",
+                        "width": 3648,
+                        "height": 3648
+                    }
                 },
                 {
                     "type": "image",
-                    "assets": [
-                        {
-                            "file": "https://s3-eu-west-1.amazonaws.com/samefourchords.com-images/2014-12-04-edinburgh-scotland-bamburgh-england//IMG_7071 - Version 2.jpg",
-                            "isMaster": true,
-                            "width": 4293,
-                            "height": 2414
-                        }
-                    ]
+                    "master": {
+                        "file": "https://s3-eu-west-1.amazonaws.com/samefourchords.com-images/2014-12-04-edinburgh-scotland-bamburgh-england//IMG_7071 - Version 2.jpg",
+                        "width": 4293,
+                        "height": 2414
+                    }
                 },
                 {
                     "type": "image",
-                    "assets": [
-                        {
-                            "file": "https://s3-eu-west-1.amazonaws.com/samefourchords.com-images/2014-12-04-edinburgh-scotland-bamburgh-england//IMG_7078 - Version 2.jpg",
-                            "width": 3329,
-                            "height": 3329
-                        },
-                        {
-                            "file": "https://s3-eu-west-1.amazonaws.com/samefourchords.com-images/2014-12-04-edinburgh-scotland-bamburgh-england//IMG_7078.jpg",
-                            "isMaster": true,
-                            "width": 5384,
-                            "height": 3028
-                        }
-                    ]
+                    "master": {
+                        "file": "https://s3-eu-west-1.amazonaws.com/samefourchords.com-images/2014-12-04-edinburgh-scotland-bamburgh-england//IMG_7078.jpg",
+                        "width": 5384,
+                        "height": 3028
+                    },
+                    "portrait": {
+                        "file": "https://s3-eu-west-1.amazonaws.com/samefourchords.com-images/2014-12-04-edinburgh-scotland-bamburgh-england//IMG_7078 - Version 2.jpg",
+                        "width": 3329,
+                        "height": 3329
+                    }
                 },
                 {
                     "type": "image",
-                    "assets": [
-                        {
-                            "file": "https://s3-eu-west-1.amazonaws.com/samefourchords.com-images/2014-12-04-edinburgh-scotland-bamburgh-england//IMG_7080.jpg",
-                            "isMaster": true,
-                            "width": 5283,
-                            "height": 2972
-                        }
-                    ]
+                    "master": {
+                        "file": "https://s3-eu-west-1.amazonaws.com/samefourchords.com-images/2014-12-04-edinburgh-scotland-bamburgh-england//IMG_7080.jpg",
+                        "width": 5283,
+                        "height": 2972
+                    }
                 },
                 {
                     "type": "image",
-                    "assets": [
-                        {
-                            "file": "https://s3-eu-west-1.amazonaws.com/samefourchords.com-images/2014-12-04-edinburgh-scotland-bamburgh-england//IMG_7085 - Version 2.jpg",
-                            "width": 3553,
-                            "height": 3553
-                        },
-                        {
-                            "file": "https://s3-eu-west-1.amazonaws.com/samefourchords.com-images/2014-12-04-edinburgh-scotland-bamburgh-england//IMG_7085.jpg",
-                            "isMaster": true,
-                            "width": 4944,
-                            "height": 2781
-                        }
-                    ]
+                    "master": {
+                        "file": "https://s3-eu-west-1.amazonaws.com/samefourchords.com-images/2014-12-04-edinburgh-scotland-bamburgh-england//IMG_7085.jpg",
+                        "width": 4944,
+                        "height": 2781
+                    },
+                    "portrait": {
+                        "file": "https://s3-eu-west-1.amazonaws.com/samefourchords.com-images/2014-12-04-edinburgh-scotland-bamburgh-england//IMG_7085 - Version 2.jpg",
+                        "width": 3553,
+                        "height": 3553
+                    }
                 },
                 {
                     "type": "image",
-                    "assets": [
-                        {
-                            "file": "https://s3-eu-west-1.amazonaws.com/samefourchords.com-images/2014-12-04-edinburgh-scotland-bamburgh-england//IMG_7091.jpg",
-                            "isMaster": true,
-                            "width": 5451,
-                            "height": 3065
-                        }
-                    ]
+                    "master": {
+                        "file": "https://s3-eu-west-1.amazonaws.com/samefourchords.com-images/2014-12-04-edinburgh-scotland-bamburgh-england//IMG_7091.jpg",
+                        "width": 5451,
+                        "height": 3065
+                    }
                 }
             ]
         }

@@ -7,30 +7,24 @@
             "elements": [
                 {
                     "type": "image",
-                    "assets": [
-                        {
-                            "file": "https://s3-eu-west-1.amazonaws.com/samefourchords.com-images/2014-10-26-prague-czech-republic-krakow-and-auschwitz-poland/IMG_6820 - Version 2.jpg",
-                            "width": 3378,
-                            "height": 3378
-                        },
-                        {
-                            "file": "https://s3-eu-west-1.amazonaws.com/samefourchords.com-images/2014-10-26-prague-czech-republic-krakow-and-auschwitz-poland/IMG_6820.jpg",
-                            "isMaster": true,
-                            "width": 4505,
-                            "height": 3003
-                        }
-                    ]
+                    "master": {
+                        "file": "https://s3-eu-west-1.amazonaws.com/samefourchords.com-images/2014-10-26-prague-czech-republic-krakow-and-auschwitz-poland/IMG_6820.jpg",
+                        "width": 4505,
+                        "height": 3003
+                    },
+                    "portrait": {
+                        "file": "https://s3-eu-west-1.amazonaws.com/samefourchords.com-images/2014-10-26-prague-czech-republic-krakow-and-auschwitz-poland/IMG_6820 - Version 2.jpg",
+                        "width": 3378,
+                        "height": 3378
+                    }
                 },
                 {
                     "type": "image",
-                    "assets": [
-                        {
-                            "file": "https://s3-eu-west-1.amazonaws.com/samefourchords.com-images/2014-10-26-prague-czech-republic-krakow-and-auschwitz-poland/IMG_6836.jpg",
-                            "isMaster": true,
-                            "width": 3244,
-                            "height": 3244
-                        }
-                    ]
+                    "master": {
+                        "file": "https://s3-eu-west-1.amazonaws.com/samefourchords.com-images/2014-10-26-prague-czech-republic-krakow-and-auschwitz-poland/IMG_6836.jpg",
+                        "width": 3244,
+                        "height": 3244
+                    }
                 }
             ]
         },
@@ -39,52 +33,40 @@
             "elements": [
                 {
                     "type": "image",
-                    "assets": [
-                        {
-                            "file": "https://s3-eu-west-1.amazonaws.com/samefourchords.com-images/2014-10-26-prague-czech-republic-krakow-and-auschwitz-poland/IMG_6847 - Version 2.jpg",
-                            "width": 3043,
-                            "height": 3043
-                        },
-                        {
-                            "file": "https://s3-eu-west-1.amazonaws.com/samefourchords.com-images/2014-10-26-prague-czech-republic-krakow-and-auschwitz-poland/IMG_6847.jpg",
-                            "isMaster": true,
-                            "width": 5196,
-                            "height": 2923
-                        }
-                    ]
+                    "master": {
+                        "file": "https://s3-eu-west-1.amazonaws.com/samefourchords.com-images/2014-10-26-prague-czech-republic-krakow-and-auschwitz-poland/IMG_6847.jpg",
+                        "width": 5196,
+                        "height": 2923
+                    },
+                    "portrait": {
+                        "file": "https://s3-eu-west-1.amazonaws.com/samefourchords.com-images/2014-10-26-prague-czech-republic-krakow-and-auschwitz-poland/IMG_6847 - Version 2.jpg",
+                        "width": 3043,
+                        "height": 3043
+                    }
                 },
                 {
                     "type": "image",
-                    "assets": [
-                        {
-                            "file": "https://s3-eu-west-1.amazonaws.com/samefourchords.com-images/2014-10-26-prague-czech-republic-krakow-and-auschwitz-poland/IMG_6853.jpg",
-                            "isMaster": true,
-                            "width": 4878,
-                            "height": 3252
-                        }
-                    ]
+                    "master": {
+                        "file": "https://s3-eu-west-1.amazonaws.com/samefourchords.com-images/2014-10-26-prague-czech-republic-krakow-and-auschwitz-poland/IMG_6853.jpg",
+                        "width": 4878,
+                        "height": 3252
+                    }
                 },
                 {
                     "type": "image",
-                    "assets": [
-                        {
-                            "file": "https://s3-eu-west-1.amazonaws.com/samefourchords.com-images/2014-10-26-prague-czech-republic-krakow-and-auschwitz-poland/IMG_6856.jpg",
-                            "isMaster": true,
-                            "width": 5442,
-                            "height": 3060
-                        }
-                    ]
+                    "master": {
+                        "file": "https://s3-eu-west-1.amazonaws.com/samefourchords.com-images/2014-10-26-prague-czech-republic-krakow-and-auschwitz-poland/IMG_6856.jpg",
+                        "width": 5442,
+                        "height": 3060
+                    }
                 },
                 {
                     "type": "image",
-                    "assets": [
-                        {
-                            "file": "https://s3-eu-west-1.amazonaws.com/samefourchords.com-images/2014-10-26-prague-czech-republic-krakow-and-auschwitz-poland/IMG_6862.jpg",
-                            "isMaster": true,
-                            "width": 3527,
-                            "height": 3527
-                        }
-                    ]
+                    "master": {
+                        "file": "https://s3-eu-west-1.amazonaws.com/samefourchords.com-images/2014-10-26-prague-czech-republic-krakow-and-auschwitz-poland/IMG_6862.jpg",
+                        "width": 3527,
+                        "height": 3527
+                    }
                 }
             ]
         }

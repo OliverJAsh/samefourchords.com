@@ -10,58 +10,43 @@
                 },
                 {
                     "type": "image",
-                    "assets": [
-                        {
-                            "file": "https://s3-eu-west-1.amazonaws.com/samefourchords.com-images/2014-09-28-zagreb-and-plitvice-lakes-croatia/IMG_6362.jpg",
-                            "isMaster": true,
-                            "width": 3389,
-                            "height": 3389
-                        }
-                    ]
+                    "master": {
+                        "file": "https://s3-eu-west-1.amazonaws.com/samefourchords.com-images/2014-09-28-zagreb-and-plitvice-lakes-croatia/IMG_6362.jpg",
+                        "width": 3389,
+                        "height": 3389
+                    }
                 },
                 {
                     "type": "image",
-                    "assets": [
-                        {
-                            "file": "https://s3-eu-west-1.amazonaws.com/samefourchords.com-images/2014-09-28-zagreb-and-plitvice-lakes-croatia/IMG_6390.jpg",
-                            "isMaster": true,
-                            "width": 3648,
-                            "height": 3648
-                        }
-                    ]
+                    "master": {
+                        "file": "https://s3-eu-west-1.amazonaws.com/samefourchords.com-images/2014-09-28-zagreb-and-plitvice-lakes-croatia/IMG_6390.jpg",
+                        "width": 3648,
+                        "height": 3648
+                    }
                 },
                 {
                     "type": "image",
-                    "assets": [
-                        {
-                            "file": "https://s3-eu-west-1.amazonaws.com/samefourchords.com-images/2014-09-28-zagreb-and-plitvice-lakes-croatia/IMG_6397 - Version 2.jpg",
-                            "isMaster": true,
-                            "width": 2493,
-                            "height": 2493
-                        }
-                    ]
+                    "master": {
+                        "file": "https://s3-eu-west-1.amazonaws.com/samefourchords.com-images/2014-09-28-zagreb-and-plitvice-lakes-croatia/IMG_6397 - Version 2.jpg",
+                        "width": 2493,
+                        "height": 2493
+                    }
                 },
                 {
                     "type": "image",
-                    "assets": [
-                        {
-                            "file": "https://s3-eu-west-1.amazonaws.com/samefourchords.com-images/2014-09-28-zagreb-and-plitvice-lakes-croatia/IMG_6403.jpg",
-                            "isMaster": true,
-                            "width": 2976,
-                            "height": 2976
-                        }
-                    ]
+                    "master": {
+                        "file": "https://s3-eu-west-1.amazonaws.com/samefourchords.com-images/2014-09-28-zagreb-and-plitvice-lakes-croatia/IMG_6403.jpg",
+                        "width": 2976,
+                        "height": 2976
+                    }
                 },
                 {
                     "type": "image",
-                    "assets": [
-                        {
-                            "file": "https://s3-eu-west-1.amazonaws.com/samefourchords.com-images/2014-09-28-zagreb-and-plitvice-lakes-croatia/IMG_6410.jpg",
-                            "isMaster": true,
-                            "width": 5404,
-                            "height": 3040
-                        }
-                    ]
+                    "master": {
+                        "file": "https://s3-eu-west-1.amazonaws.com/samefourchords.com-images/2014-09-28-zagreb-and-plitvice-lakes-croatia/IMG_6410.jpg",
+                        "width": 5404,
+                        "height": 3040
+                    }
                 }
             ]
         },
@@ -74,69 +59,51 @@
                 },
                 {
                     "type": "image",
-                    "assets": [
-                        {
-                            "file": "https://s3-eu-west-1.amazonaws.com/samefourchords.com-images/2014-09-28-zagreb-and-plitvice-lakes-croatia/IMG_6415.jpg",
-                            "isMaster": true,
-                            "width": 5472,
-                            "height": 3648
-                        }
-                    ]
+                    "master": {
+                        "file": "https://s3-eu-west-1.amazonaws.com/samefourchords.com-images/2014-09-28-zagreb-and-plitvice-lakes-croatia/IMG_6415.jpg",
+                        "width": 5472,
+                        "height": 3648
+                    }
                 },
                 {
                     "type": "image",
-                    "assets": [
-                        {
-                            "file": "https://s3-eu-west-1.amazonaws.com/samefourchords.com-images/2014-09-28-zagreb-and-plitvice-lakes-croatia/IMG_6418.jpg",
-                            "isMaster": true,
-                            "width": 3329,
-                            "height": 3329
-                        }
-                    ]
+                    "master": {
+                        "file": "https://s3-eu-west-1.amazonaws.com/samefourchords.com-images/2014-09-28-zagreb-and-plitvice-lakes-croatia/IMG_6418.jpg",
+                        "width": 3329,
+                        "height": 3329
+                    }
                 },
                 {
                     "type": "image",
-                    "assets": [
-                        {
-                            "file": "https://s3-eu-west-1.amazonaws.com/samefourchords.com-images/2014-09-28-zagreb-and-plitvice-lakes-croatia/IMG_6423.jpg",
-                            "isMaster": true,
-                            "width": 3482,
-                            "height": 1959
-                        }
-                    ]
+                    "master": {
+                        "file": "https://s3-eu-west-1.amazonaws.com/samefourchords.com-images/2014-09-28-zagreb-and-plitvice-lakes-croatia/IMG_6423.jpg",
+                        "width": 3482,
+                        "height": 1959
+                    }
                 },
                 {
                     "type": "image",
-                    "assets": [
-                        {
-                            "file": "https://s3-eu-west-1.amazonaws.com/samefourchords.com-images/2014-09-28-zagreb-and-plitvice-lakes-croatia/IMG_6452.jpg",
-                            "isMaster": true,
-                            "width": 5232,
-                            "height": 3488
-                        }
-                    ]
+                    "master": {
+                        "file": "https://s3-eu-west-1.amazonaws.com/samefourchords.com-images/2014-09-28-zagreb-and-plitvice-lakes-croatia/IMG_6452.jpg",
+                        "width": 5232,
+                        "height": 3488
+                    }
                 },
                 {
                     "type": "image",
-                    "assets": [
-                        {
-                            "file": "https://s3-eu-west-1.amazonaws.com/samefourchords.com-images/2014-09-28-zagreb-and-plitvice-lakes-croatia/IMG_6486.jpg",
-                            "isMaster": true,
-                            "width": 3013,
-                            "height": 3013
-                        }
-                    ]
+                    "master": {
+                        "file": "https://s3-eu-west-1.amazonaws.com/samefourchords.com-images/2014-09-28-zagreb-and-plitvice-lakes-croatia/IMG_6486.jpg",
+                        "width": 3013,
+                        "height": 3013
+                    }
                 },
                 {
                     "type": "image",
-                    "assets": [
-                        {
-                            "file": "https://s3-eu-west-1.amazonaws.com/samefourchords.com-images/2014-09-28-zagreb-and-plitvice-lakes-croatia/IMG_6512.jpg",
-                            "isMaster": true,
-                            "width": 5472,
-                            "height": 3078
-                        }
-                    ]
+                    "master": {
+                        "file": "https://s3-eu-west-1.amazonaws.com/samefourchords.com-images/2014-09-28-zagreb-and-plitvice-lakes-croatia/IMG_6512.jpg",
+                        "width": 5472,
+                        "height": 3078
+                    }
                 }
             ]
         }
