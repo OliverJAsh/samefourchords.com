@@ -2,6 +2,7 @@ import { h } from 'virtual-dom';
 import mainView from './main';
 import * as URL from 'url';
 import { sortBy, last, range } from 'lodash';
+import dateFormat = require('dateformat');
 
 import { Post, PostImageElement, PostTextElement } from '../models';
 
@@ -73,7 +74,7 @@ const createModel = (post: Post): Model => {
     return {
         title: post.title,
         href: post.href,
-        date: post.date.toDateString(),
+        date: dateFormat(post.date, 'd mmmm yyyy'),
         blocks: post.blocks.map(block => ({
             title: block.title,
             elementGroups: (
