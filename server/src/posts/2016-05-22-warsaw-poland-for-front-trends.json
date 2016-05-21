@@ -1,0 +1,50 @@
+{
+    "title": "Warsaw, Poland (for Front-Trends)",
+    "date": "2016-05-22",
+    "blocks": [
+        {
+            "elements": [
+                {
+                    "type": "image",
+                    "master": {
+                        "file": "https://s3-eu-west-1.amazonaws.com/samefourchords.com-images/2016-05-22-warsaw-poland-for-front-trends/IMG_9011.jpg",
+                        "width": 5359,
+                        "height": 3573
+                    }
+                },
+                {
+                    "type": "image",
+                    "master": {
+                        "file": "https://s3-eu-west-1.amazonaws.com/samefourchords.com-images/2016-05-22-warsaw-poland-for-front-trends/IMG_9014.jpg",
+                        "width": 4426,
+                        "height": 2766
+                    }
+                },
+                {
+                    "type": "image",
+                    "master": {
+                        "file": "https://s3-eu-west-1.amazonaws.com/samefourchords.com-images/2016-05-22-warsaw-poland-for-front-trends/IMG_9020.jpg",
+                        "width": 4696,
+                        "height": 2935
+                    }
+                },
+                {
+                    "type": "image",
+                    "master": {
+                        "file": "https://s3-eu-west-1.amazonaws.com/samefourchords.com-images/2016-05-22-warsaw-poland-for-front-trends/IMG_9037.jpg",
+                        "width": 5254,
+                        "height": 3284
+                    }
+                },
+                {
+                    "type": "image",
+                    "master": {
+                        "file": "https://s3-eu-west-1.amazonaws.com/samefourchords.com-images/2016-05-22-warsaw-poland-for-front-trends/IMG_9054.jpg",
+                        "width": 5472,
+                        "height": 3648
+                    }
+                }
+            ]
+        }
+    ]
+}
