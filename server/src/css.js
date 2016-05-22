@@ -31,7 +31,8 @@ h1,
 .article-header,
 .element-group.text,
 .fix-width {
-    width: 40rem;
+    max-width: 40rem;
+    width: 100%;
 }
 
 .element-group.image {
