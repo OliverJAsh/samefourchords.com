@@ -1,0 +1,26 @@
+{
+    "title": "Beachy Head",
+    "date": "2015-11-08",
+    "blocks": [
+        {
+            "elements": [
+                {
+                    "type": "image",
+                    "master": {
+                        "file": "https://s3-eu-west-1.amazonaws.com/samefourchords.com-images/2015-11-08-beachy-head/IMG_8486.jpg",
+                        "width": 5472,
+                        "height": 3648
+                    }
+                },
+                {
+                    "type": "image",
+                    "master": {
+                        "file": "https://s3-eu-west-1.amazonaws.com/samefourchords.com-images/2015-11-08-beachy-head/IMG_8489.jpg",
+                        "width": 5472,
+                        "height": 3648
+                    }
+                }
+            ]
+        }
+    ]
+}
