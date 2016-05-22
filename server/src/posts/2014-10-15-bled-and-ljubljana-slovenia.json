@@ -11,7 +11,7 @@
                 {
                     "type": "image",
                     "master": {
-                        "file": "https://s3-eu-west-1.amazonaws.com/samefourchords.com-images/2014-10-15-bled-and-ljubljana-slovenia/IMG_6623.jpg",
+                        "file": "IMG_6623.jpg",
                         "width": 3603,
                         "height": 3603
                     }
@@ -19,7 +19,7 @@
                 {
                     "type": "image",
                     "master": {
-                        "file": "https://s3-eu-west-1.amazonaws.com/samefourchords.com-images/2014-10-15-bled-and-ljubljana-slovenia/IMG_6640.jpg",
+                        "file": "IMG_6640.jpg",
                         "width": 3437,
                         "height": 3437
                     }
@@ -27,7 +27,7 @@
                 {
                     "type": "image",
                     "master": {
-                        "file": "https://s3-eu-west-1.amazonaws.com/samefourchords.com-images/2014-10-15-bled-and-ljubljana-slovenia/IMG_6654.jpg",
+                        "file": "IMG_6654.jpg",
                         "width": 3065,
                         "height": 3065
                     }
@@ -35,12 +35,12 @@
                 {
                     "type": "image",
                     "master": {
-                        "file": "https://s3-eu-west-1.amazonaws.com/samefourchords.com-images/2014-10-15-bled-and-ljubljana-slovenia/IMG_6663.jpg",
+                        "file": "IMG_6663.jpg",
                         "width": 5472,
                         "height": 3648
                     },
                     "portrait": {
-                        "file": "https://s3-eu-west-1.amazonaws.com/samefourchords.com-images/2014-10-15-bled-and-ljubljana-slovenia/IMG_6663 - Version 3.jpg",
+                        "file": "IMG_6663 - Version 3.jpg",
                         "width": 3648,
                         "height": 3648
                     }
@@ -57,7 +57,7 @@
                 {
                     "type": "image",
                     "master": {
-                        "file": "https://s3-eu-west-1.amazonaws.com/samefourchords.com-images/2014-10-15-bled-and-ljubljana-slovenia/IMG_6674.jpg",
+                        "file": "IMG_6674.jpg",
                         "width": 3828,
                         "height": 2153
                     }
@@ -65,7 +65,7 @@
                 {
                     "type": "image",
                     "master": {
-                        "file": "https://s3-eu-west-1.amazonaws.com/samefourchords.com-images/2014-10-15-bled-and-ljubljana-slovenia/IMG_6676.jpg",
+                        "file": "IMG_6676.jpg",
                         "width": 5025,
                         "height": 2825
                     }
@@ -73,7 +73,7 @@
                 {
                     "type": "image",
                     "master": {
-                        "file": "https://s3-eu-west-1.amazonaws.com/samefourchords.com-images/2014-10-15-bled-and-ljubljana-slovenia/IMG_6715.jpg",
+                        "file": "IMG_6715.jpg",
                         "width": 5057,
                         "height": 2844
                     }
@@ -86,12 +86,12 @@
                 {
                     "type": "image",
                     "master": {
-                        "file": "https://s3-eu-west-1.amazonaws.com/samefourchords.com-images/2014-10-15-bled-and-ljubljana-slovenia/IMG_6795.jpg",
+                        "file": "IMG_6795.jpg",
                         "width": 5472,
                         "height": 3077
                     },
                     "portrait": {
-                        "file": "https://s3-eu-west-1.amazonaws.com/samefourchords.com-images/2014-10-15-bled-and-ljubljana-slovenia/IMG_6795 - Version 2.jpg",
+                        "file": "IMG_6795 - Version 2.jpg",
                         "width": 3153,
                         "height": 3153
                     }
@@ -99,7 +99,7 @@
                 {
                     "type": "image",
                     "master": {
-                        "file": "https://s3-eu-west-1.amazonaws.com/samefourchords.com-images/2014-10-15-bled-and-ljubljana-slovenia/IMG_6802.jpg",
+                        "file": "IMG_6802.jpg",
                         "width": 3299,
                         "height": 3299
                     }
@@ -107,12 +107,12 @@
                 {
                     "type": "image",
                     "master": {
-                        "file": "https://s3-eu-west-1.amazonaws.com/samefourchords.com-images/2014-10-15-bled-and-ljubljana-slovenia/IMG_6805.jpg",
+                        "file": "IMG_6805.jpg",
                         "width": 5403,
                         "height": 3602
                     },
                     "portrait": {
-                        "file": "https://s3-eu-west-1.amazonaws.com/samefourchords.com-images/2014-10-15-bled-and-ljubljana-slovenia/IMG_6805 - Version 2.jpg",
+                        "file": "IMG_6805 - Version 2.jpg",
                         "width": 3629,
                         "height": 3629
                     }
@@ -120,12 +120,12 @@
                 {
                     "type": "image",
                     "master": {
-                        "file": "https://s3-eu-west-1.amazonaws.com/samefourchords.com-images/2014-10-15-bled-and-ljubljana-slovenia/IMG_6810.jpg",
+                        "file": "IMG_6810.jpg",
                         "width": 5472,
                         "height": 3077
                     },
                     "portrait": {
-                        "file": "https://s3-eu-west-1.amazonaws.com/samefourchords.com-images/2014-10-15-bled-and-ljubljana-slovenia/IMG_6810 - Version 2.jpg",
+                        "file": "IMG_6810 - Version 2.jpg",
                         "width": 3289,
                         "height": 3289
                     }

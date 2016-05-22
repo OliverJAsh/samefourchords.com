@@ -7,12 +7,12 @@
                 {
                     "type": "image",
                     "master": {
-                        "file": "https://s3-eu-west-1.amazonaws.com/samefourchords.com-images/2014-11-01-zakopane-poland/Untitled_HDR2.jpg",
+                        "file": "Untitled_HDR2.jpg",
                         "width": 4951,
                         "height": 2785
                     },
                     "portrait": {
-                        "file": "https://s3-eu-west-1.amazonaws.com/samefourchords.com-images/2014-11-01-zakopane-poland/Untitled_HDR2 - Version 2.jpg",
+                        "file": "Untitled_HDR2 - Version 2.jpg",
                         "width": 2866,
                         "height": 2866
                     }
@@ -20,12 +20,12 @@
                 {
                     "type": "image",
                     "master": {
-                        "file": "https://s3-eu-west-1.amazonaws.com/samefourchords.com-images/2014-11-01-zakopane-poland/IMG_6864.jpg",
+                        "file": "IMG_6864.jpg",
                         "width": 5472,
                         "height": 3077
                     },
                     "portrait": {
-                        "file": "https://s3-eu-west-1.amazonaws.com/samefourchords.com-images/2014-11-01-zakopane-poland/IMG_6864 - Version 2.jpg",
+                        "file": "IMG_6864 - Version 2.jpg",
                         "width": 3437,
                         "height": 3437
                     }
@@ -33,12 +33,12 @@
                 {
                     "type": "image",
                     "master": {
-                        "file": "https://s3-eu-west-1.amazonaws.com/samefourchords.com-images/2014-11-01-zakopane-poland/IMG_6865.jpg",
+                        "file": "IMG_6865.jpg",
                         "width": 5353,
                         "height": 3011
                     },
                     "portrait": {
-                        "file": "https://s3-eu-west-1.amazonaws.com/samefourchords.com-images/2014-11-01-zakopane-poland/IMG_6865 - Version 2.jpg",
+                        "file": "IMG_6865 - Version 2.jpg",
                         "width": 3301,
                         "height": 3301
                     }
@@ -46,7 +46,7 @@
                 {
                     "type": "image",
                     "master": {
-                        "file": "https://s3-eu-west-1.amazonaws.com/samefourchords.com-images/2014-11-01-zakopane-poland/IMG_6866.jpg",
+                        "file": "IMG_6866.jpg",
                         "width": 2113,
                         "height": 2113
                     }
@@ -54,12 +54,12 @@
                 {
                     "type": "image",
                     "master": {
-                        "file": "https://s3-eu-west-1.amazonaws.com/samefourchords.com-images/2014-11-01-zakopane-poland/IMG_6873.jpg",
+                        "file": "IMG_6873.jpg",
                         "width": 5098,
                         "height": 2866
                     },
                     "portrait": {
-                        "file": "https://s3-eu-west-1.amazonaws.com/samefourchords.com-images/2014-11-01-zakopane-poland/IMG_6873 - Version 2.jpg",
+                        "file": "IMG_6873 - Version 2.jpg",
                         "width": 3648,
                         "height": 3648
                     }
@@ -67,7 +67,7 @@
                 {
                     "type": "image",
                     "master": {
-                        "file": "https://s3-eu-west-1.amazonaws.com/samefourchords.com-images/2014-11-01-zakopane-poland/IMG_6905.jpg",
+                        "file": "IMG_6905.jpg",
                         "width": 3178,
                         "height": 3178
                     }
@@ -75,12 +75,12 @@
                 {
                     "type": "image",
                     "master": {
-                        "file": "https://s3-eu-west-1.amazonaws.com/samefourchords.com-images/2014-11-01-zakopane-poland/IMG_6910.jpg",
+                        "file": "IMG_6910.jpg",
                         "width": 5472,
                         "height": 3078
                     },
                     "portrait": {
-                        "file": "https://s3-eu-west-1.amazonaws.com/samefourchords.com-images/2014-11-01-zakopane-poland/IMG_6910 - Version 2.jpg",
+                        "file": "IMG_6910 - Version 2.jpg",
                         "width": 3648,
                         "height": 3648
                     }
@@ -88,12 +88,12 @@
                 {
                     "type": "image",
                     "master": {
-                        "file": "https://s3-eu-west-1.amazonaws.com/samefourchords.com-images/2014-11-01-zakopane-poland/IMG_6934.jpg",
+                        "file": "IMG_6934.jpg",
                         "width": 5472,
                         "height": 3077
                     },
                     "portrait": {
-                        "file": "https://s3-eu-west-1.amazonaws.com/samefourchords.com-images/2014-11-01-zakopane-poland/IMG_6934 - Version 2.jpg",
+                        "file": "IMG_6934 - Version 2.jpg",
                         "width": 3648,
                         "height": 3648
                     }
@@ -101,7 +101,7 @@
                 {
                     "type": "image",
                     "master": {
-                        "file": "https://s3-eu-west-1.amazonaws.com/samefourchords.com-images/2014-11-01-zakopane-poland/IMG_6945.jpg",
+                        "file": "IMG_6945.jpg",
                         "width": 3648,
                         "height": 3648
                     }
@@ -118,7 +118,7 @@
                 {
                     "type": "image",
                     "master": {
-                        "file": "https://s3-eu-west-1.amazonaws.com/samefourchords.com-images/2014-11-01-zakopane-poland/IMG_6962.jpg",
+                        "file": "IMG_6962.jpg",
                         "width": 5472,
                         "height": 3648
                     }
@@ -126,12 +126,12 @@
                 {
                     "type": "image",
                     "master": {
-                        "file": "https://s3-eu-west-1.amazonaws.com/samefourchords.com-images/2014-11-01-zakopane-poland/IMG_6977.jpg",
+                        "file": "IMG_6977.jpg",
                         "width": 5472,
                         "height": 3078
                     },
                     "portrait": {
-                        "file": "https://s3-eu-west-1.amazonaws.com/samefourchords.com-images/2014-11-01-zakopane-poland/IMG_6977 - Version 2.jpg",
+                        "file": "IMG_6977 - Version 2.jpg",
                         "width": 3648,
                         "height": 3648
                     }
@@ -139,7 +139,7 @@
                 {
                     "type": "image",
                     "master": {
-                        "file": "https://s3-eu-west-1.amazonaws.com/samefourchords.com-images/2014-11-01-zakopane-poland/IMG_6985.jpg",
+                        "file": "IMG_6985.jpg",
                         "width": 5179,
                         "height": 2912
                     }

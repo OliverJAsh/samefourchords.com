@@ -7,7 +7,7 @@
                 {
                     "type": "image",
                     "master": {
-                        "file": "https://s3-eu-west-1.amazonaws.com/samefourchords.com-images/2016-05-16-budapest-hungary-for-jsconf/IMG_8993.jpg",
+                        "file": "IMG_8993.jpg",
                         "width": 5472,
                         "height": 3648
                     }
@@ -15,7 +15,7 @@
                 {
                     "type": "image",
                     "master": {
-                        "file": "https://s3-eu-west-1.amazonaws.com/samefourchords.com-images/2016-05-16-budapest-hungary-for-jsconf/IMG_9000.jpg",
+                        "file": "IMG_9000.jpg",
                         "width": 5472,
                         "height": 3648
                     }

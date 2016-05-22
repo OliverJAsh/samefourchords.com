@@ -7,7 +7,7 @@
                 {
                     "type": "image",
                     "master": {
-                        "file": "https://s3-eu-west-1.amazonaws.com/samefourchords.com-images/2014-10-03-split-and-hvar-croatia/IMG_6525.jpg",
+                        "file": "IMG_6525.jpg",
                         "width": 4880,
                         "height": 2745
                     }
@@ -15,7 +15,7 @@
                 {
                     "type": "image",
                     "master": {
-                        "file": "https://s3-eu-west-1.amazonaws.com/samefourchords.com-images/2014-10-03-split-and-hvar-croatia/IMG_6546.jpg",
+                        "file": "IMG_6546.jpg",
                         "width": 3648,
                         "height": 3648
                     }
@@ -23,7 +23,7 @@
                 {
                     "type": "image",
                     "master": {
-                        "file": "https://s3-eu-west-1.amazonaws.com/samefourchords.com-images/2014-10-03-split-and-hvar-croatia/IMG_6562.jpg",
+                        "file": "IMG_6562.jpg",
                         "width": 4217,
                         "height": 3423
                     }
@@ -36,7 +36,7 @@
                 {
                     "type": "image",
                     "master": {
-                        "file": "https://s3-eu-west-1.amazonaws.com/samefourchords.com-images/2014-10-03-split-and-hvar-croatia/IMG_6573.jpg",
+                        "file": "IMG_6573.jpg",
                         "width": 5472,
                         "height": 3077
                     }
@@ -44,7 +44,7 @@
                 {
                     "type": "image",
                     "master": {
-                        "file": "https://s3-eu-west-1.amazonaws.com/samefourchords.com-images/2014-10-03-split-and-hvar-croatia/IMG_6601.jpg",
+                        "file": "IMG_6601.jpg",
                         "width": 3648,
                         "height": 3648
                     }
@@ -52,12 +52,12 @@
                 {
                     "type": "image",
                     "master": {
-                        "file": "https://s3-eu-west-1.amazonaws.com/samefourchords.com-images/2014-10-03-split-and-hvar-croatia/IMG_6605.jpg",
+                        "file": "IMG_6605.jpg",
                         "width": 5472,
                         "height": 3648
                     },
                     "portrait": {
-                        "file": "https://s3-eu-west-1.amazonaws.com/samefourchords.com-images/2014-10-03-split-and-hvar-croatia/IMG_6605 - Version 2.jpg",
+                        "file": "IMG_6605 - Version 2.jpg",
                         "width": 3648,
                         "height": 3648
                     }
@@ -65,12 +65,12 @@
                 {
                     "type": "image",
                     "master": {
-                        "file": "https://s3-eu-west-1.amazonaws.com/samefourchords.com-images/2014-10-03-split-and-hvar-croatia/IMG_6613.jpg",
+                        "file": "IMG_6613.jpg",
                         "width": 5167,
                         "height": 2906
                     },
                     "portrait": {
-                        "file": "https://s3-eu-west-1.amazonaws.com/samefourchords.com-images/2014-10-03-split-and-hvar-croatia/IMG_6613 - Version 2.jpg",
+                        "file": "IMG_6613 - Version 2.jpg",
                         "width": 3352,
                         "height": 3352
                     }

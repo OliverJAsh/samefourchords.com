@@ -57,7 +57,6 @@ export class ImageElement extends Element {
 }
 
 const imgixOrigin = 'https://samefourchords-com-images.imgix.net';
-const bucketName = 'samefourchords.com-images';
 
 // TODO: Class
 const isPostImageElement = (element: PostTextElement | PostImageElement): element is PostImageElement => element.type === 'image';
@@ -80,7 +79,7 @@ export const createModel = (post: Post): Model => {
                 block.elements
                     .map((element): Element => {
                         if (isPostImageElement(element)) {
-                            const bucketPath = URL.parse(element.master.file).path.replace(new RegExp(`^/${bucketName}`), '');
+                            const bucketPath = encodeURI(`/${post.href.replace(/^\//, '').replace(/\//g, '-')}/${element.master.file}`);
                             const heightAsProportionOfWidth = (element.master.height / element.master.width);
                             const widthAsProportionOfHeight = (element.master.width / element.master.height);
                             const createWidths = (dpr: number) => range(320 * dpr, element.master.width, 150 * dpr);

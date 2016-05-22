@@ -7,7 +7,7 @@
                 {
                     "type": "image",
                     "master": {
-                        "file": "https://s3-eu-west-1.amazonaws.com/samefourchords.com-images/2015-12-27-rhiannon-and-rodney/IMG_8651.jpg",
+                        "file": "IMG_8651.jpg",
                         "width": 4560,
                         "height": 3648
                     }
@@ -15,7 +15,7 @@
                 {
                     "type": "image",
                     "master": {
-                        "file": "https://s3-eu-west-1.amazonaws.com/samefourchords.com-images/2015-12-27-rhiannon-and-rodney/IMG_8654.jpg",
+                        "file": "IMG_8654.jpg",
                         "width": 3648,
                         "height": 5472
                     }

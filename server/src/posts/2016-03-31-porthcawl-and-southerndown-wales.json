@@ -7,7 +7,7 @@
                 {
                     "type": "image",
                     "master": {
-                        "file": "https://s3-eu-west-1.amazonaws.com/samefourchords.com-images/2016-03-31-porthcawl-and-southerndown-wales/IMG_8770.jpg",
+                        "file": "IMG_8770.jpg",
                         "width": 5333,
                         "height": 3555
                     }
@@ -15,7 +15,7 @@
                 {
                     "type": "image",
                     "master": {
-                        "file": "https://s3-eu-west-1.amazonaws.com/samefourchords.com-images/2016-03-31-porthcawl-and-southerndown-wales/IMG_8779.jpg",
+                        "file": "IMG_8779.jpg",
                         "width": 5266,
                         "height": 3511
                     }
@@ -23,7 +23,7 @@
                 {
                     "type": "image",
                     "master": {
-                        "file": "https://s3-eu-west-1.amazonaws.com/samefourchords.com-images/2016-03-31-porthcawl-and-southerndown-wales/IMG_8784.jpg",
+                        "file": "IMG_8784.jpg",
                         "width": 5472,
                         "height": 3648
                     }
@@ -31,7 +31,7 @@
                 {
                     "type": "image",
                     "master": {
-                        "file": "https://s3-eu-west-1.amazonaws.com/samefourchords.com-images/2016-03-31-porthcawl-and-southerndown-wales/IMG_8790.jpg",
+                        "file": "IMG_8790.jpg",
                         "width": 4959,
                         "height": 3306
                     }
@@ -39,7 +39,7 @@
                 {
                     "type": "image",
                     "master": {
-                        "file": "https://s3-eu-west-1.amazonaws.com/samefourchords.com-images/2016-03-31-porthcawl-and-southerndown-wales/IMG_8792.jpg",
+                        "file": "IMG_8792.jpg",
                         "width": 5472,
                         "height": 3648
                     }

@@ -7,7 +7,7 @@
                 {
                     "type": "image",
                     "master": {
-                        "file": "https://s3-eu-west-1.amazonaws.com/samefourchords.com-images/2015-11-02-home/IMG_8453.jpg",
+                        "file": "IMG_8453.jpg",
                         "width": 5472,
                         "height": 3648
                     }
@@ -15,7 +15,7 @@
                 {
                     "type": "image",
                     "master": {
-                        "file": "https://s3-eu-west-1.amazonaws.com/samefourchords.com-images/2015-11-02-home/IMG_8454.jpg",
+                        "file": "IMG_8454.jpg",
                         "width": 5472,
                         "height": 3648
                     }
@@ -23,7 +23,7 @@
                 {
                     "type": "image",
                     "master": {
-                        "file": "https://s3-eu-west-1.amazonaws.com/samefourchords.com-images/2015-11-02-home/IMG_8455.jpg",
+                        "file": "IMG_8455.jpg",
                         "width": 3555,
                         "height": 5333
                     }
