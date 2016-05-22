@@ -31,6 +31,22 @@
                 {
                     "type": "image",
                     "master": {
+                        "file": "https://s3-eu-west-1.amazonaws.com/samefourchords.com-images/2016-05-09-grendon-northamptonshire/IMG_8912.jpg",
+                        "width": 4725,
+                        "height": 3150
+                    }
+                },
+                {
+                    "type": "image",
+                    "master": {
+                        "file": "https://s3-eu-west-1.amazonaws.com/samefourchords.com-images/2016-05-09-grendon-northamptonshire/IMG_8915.jpg",
+                        "width": 3125,
+                        "height": 3125
+                    }
+                },
+                {
+                    "type": "image",
+                    "master": {
                         "file": "https://s3-eu-west-1.amazonaws.com/samefourchords.com-images/2016-05-09-grendon-northamptonshire/IMG_8919.jpg",
                         "width": 5472,
                         "height": 3648
