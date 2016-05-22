@@ -12,7 +12,7 @@ const createPost = (post: Post) => (
 
 export default (posts: Array<Post>) => {
     const body = h('ul', (
-        toPairs(groupBy(posts, post => post.date.getFullYear()))
+        (<[ string, Post[] ][]>toPairs(groupBy(posts, post => post.date.getFullYear())))
             .reverse()
             .map(
                 ([ year, posts ]) => (
