@@ -6,7 +6,7 @@ import { Post } from '../models';
 
 const createPost = (post: Post) => (
     h('li', [
-        h('h3', [ h('a', { href: post.href }, [ post.title ]) ])
+        h('h4', [ h('a', { href: post.href }, [ post.title ]) ])
     ])
 );
 
@@ -20,7 +20,7 @@ export default (posts: Array<Post>) => {
             .map(
                 ([ year, posts ]) => (
                     h('li', [
-                        h('h3', year),
+                        h('h2', year),
                         h('ul', (
                             (<[ string, Post[] ][]>toPairs(groupBy(posts, post => post.date.getMonth())))
                                 .reverse()
