@@ -18,6 +18,7 @@ import * as denodeify from 'denodeify';
 
 import postView from './views/post';
 import homeView from './views/home';
+import timelineView from './views/timeline';
 import errorView from './views/error';
 
 import redirectTrailingSlashes from './redirect-trailing-slashes';
@@ -103,6 +104,18 @@ siteRouter.get(homeRegExp, (req, res, next) => (
         .then(posts => sortPostsByDateDesc(posts.map(postJsonToPost)))
         .then(posts => {
             const response = stringifyTree(homeView(posts));
+            res
+                .set('Cache-Control', 'public, max-age=60')
+                .send(response);
+        })
+        .catch(next)
+));
+
+siteRouter.get('/timeline', (req, res, next) => (
+    postsPromise
+        .then(posts => sortPostsByDateDesc(posts.map(postJsonToPost)))
+        .then(posts => {
+            const response = stringifyTree(timelineView(posts));
             res
                 .set('Cache-Control', 'public, max-age=60')
                 .send(response);
