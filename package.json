@@ -2,7 +2,7 @@
   "private": true,
   "scripts": {
     "start": "npm run compile && npm run runServer",
-    "compile": "npm run clean && npm run compileClientTs && cp client/target/main.js server/target/client/main.js && npm run compileServerTs && cp -r server/src/posts server/target",
+    "compile": "npm run clean && npm run compileClientTs && cp -r client/target/* server/target/client && npm run compileServerTs && cp -r server/src/posts server/target",
     "clean": "rm -rf server/target && rm -rf client/target && mkdir -p server/target/client && mkdir -p client/target",
     "compileClientTs": "tsc --project client",
     "compileServerTs": "tsc --project server",

@@ -4,6 +4,7 @@ import css from '../css';
 import * as fs from 'fs';
 
 const clientMainJs = fs.readFileSync(`${__dirname}/../client/main.js`).toString();
+const analyticsJs = fs.readFileSync(`${__dirname}/../client/analytics.js`).toString();
 
 const renderNonBlockingCss = (href: string): Array<VNode> => [
     h('link', {
@@ -34,7 +35,8 @@ export default ({ title, body }) => (
                 h('a', { href: '/' }, siteTitle)
             ]),
             h('main', [ body ]),
-            h('script', { innerHTML: clientMainJs }, [])
+            h('script', { innerHTML: clientMainJs }, []),
+            h('script', { innerHTML: analyticsJs }, [])
         ])
     ])
 );
