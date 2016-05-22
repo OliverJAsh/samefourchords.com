@@ -180,7 +180,7 @@ const bodyView = (model: Model) => (
         ]),
         h('div', model.blocks.map(block => (
             h('div', [
-                h('h2', block.title),
+                block.title ? h('h2', block.title) : null,
                 h('.element-groups', (
                     block.elementGroups.map(elementGroup => {
                         return h('.element-group', { className: elementGroup.type }, (
