@@ -10,6 +10,9 @@ const createPost = (post: Post) => (
     ])
 );
 
+const months = ['January', 'February', 'March', 'April', 'May', 'June',
+    'July', 'August', 'September', 'October', 'November', 'December'];
+
 export default (posts: Array<Post>) => {
     const body = h('ul', (
         (<[ string, Post[] ][]>toPairs(groupBy(posts, post => post.date.getFullYear())))
@@ -18,7 +21,16 @@ export default (posts: Array<Post>) => {
                 ([ year, posts ]) => (
                     h('li', [
                         h('h3', year),
-                        h('ul', posts.map(createPost))
+                        h('ul', (
+                            (<[ string, Post[] ][]>toPairs(groupBy(posts, post => post.date.getMonth())))
+                                .reverse()
+                                .map(([ monthIndex, posts ]) => (
+                                    h('li', [
+                                        h('h3', months[parseInt(monthIndex)]),
+                                        h('ul', posts.map(createPost))
+                                    ])
+                                ))
+                        ))
                     ])
                 )
             )
