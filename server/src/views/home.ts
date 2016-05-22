@@ -14,27 +14,29 @@ const months = ['January', 'February', 'March', 'April', 'May', 'June',
     'July', 'August', 'September', 'October', 'November', 'December'];
 
 export default (posts: Array<Post>) => {
-    const body = h('ul', (
-        (<[ string, Post[] ][]>toPairs(groupBy(posts, post => post.date.getFullYear())))
-            .reverse()
-            .map(
-                ([ year, posts ]) => (
-                    h('li', [
-                        h('h2', year),
-                        h('ul', (
-                            (<[ string, Post[] ][]>toPairs(groupBy(posts, post => post.date.getMonth())))
-                                .reverse()
-                                .map(([ monthIndex, posts ]) => (
-                                    h('li', [
-                                        h('h3', months[parseInt(monthIndex)]),
-                                        h('ul', posts.map(createPost))
-                                    ])
-                                ))
-                        ))
-                    ])
+    const body = h('.flex-container', [
+        h('ul.fix-width', (
+            (<[ string, Post[] ][]>toPairs(groupBy(posts, post => post.date.getFullYear())))
+                .reverse()
+                .map(
+                    ([ year, posts ]) => (
+                        h('li', [
+                            h('h2', year),
+                            h('ul', (
+                                (<[ string, Post[] ][]>toPairs(groupBy(posts, post => post.date.getMonth())))
+                                    .reverse()
+                                    .map(([ monthIndex, posts ]) => (
+                                        h('li', [
+                                            h('h3', months[parseInt(monthIndex)]),
+                                            h('ul', posts.map(createPost))
+                                        ])
+                                    ))
+                            ))
+                        ])
+                    )
                 )
-            )
-    ));
+        ))
+    ]);
 
     return mainView({ title: '', body });
 };

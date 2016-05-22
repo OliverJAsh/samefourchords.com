@@ -33,7 +33,7 @@ export default ({ title, body }) => (
             h('h1', [
                 h('a', { href: '/' }, siteTitle)
             ]),
-            h('div', [ body ]),
+            h('main', [ body ]),
             h('script', { innerHTML: clientMainJs }, [])
         ])
     ])

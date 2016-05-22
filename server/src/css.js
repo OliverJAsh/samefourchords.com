@@ -4,14 +4,34 @@ body {
     margin: 1rem;
 }
 
+body,
+article,
+.block,
+.flex-container,
+.timeline-entry,
 .element-groups {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
+main,
+.blocks,
+.timeline-entry ul,
+.timeline-entry article,
+.element-groups {
+    width: 100%;
+}
+
 .element-group {
     display: flex;
+}
+
+h1,
+.article-header,
+.element-group.text,
+.fix-width {
+    width: 40rem;
 }
 
 .element-group.image {
@@ -91,7 +111,7 @@ body {
     object-fit: contain;
 }
 
-h1, h2, h3, h4, h5, h6, p {
+h1, h2, h3, h4, h5, h6, p, ul, ol {
     margin-top: 0;
     margin-bottom: 0;
 }
@@ -105,11 +125,11 @@ ul {
     padding-left: 0;
 }
 
-h1, h2, h3, h4, h5, h6, p, .article-header, .block {
+h1, h2, h3, h4, h5, h6, p, .article-header, .block, .timeline-entry {
     margin-bottom: 1rem;
 }
 
-p:last-child {
+p:last-child, .block:last-child, .timeline-entry:last-child {
     margin-bottom: 0;
 }
 `;
