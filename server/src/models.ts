@@ -14,7 +14,6 @@ interface PostJsonTextElement {
 
 interface PostJsonImageElementAsset {
     file: string;
-    isMaster: boolean;
     width: number;
     height: number;
 }
@@ -44,7 +43,6 @@ export interface PostTextElement {
 
 interface PostImageElementAsset {
     file: string;
-    isMaster: boolean;
     width: number;
     height: number;
 }
