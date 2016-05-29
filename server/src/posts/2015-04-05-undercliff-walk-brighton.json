@@ -1,0 +1,26 @@
+{
+  "title": "Undercliff Walk, Brighton",
+  "date": "2015-04-05",
+  "blocks": [
+    {
+      "elements": [
+        {
+          "type": "image",
+          "master": {
+            "file": "IMG_7532.jpg",
+            "width": "5472",
+            "height": "3648"
+          }
+        },
+        {
+          "type": "image",
+          "master": {
+            "file": "IMG_7543.jpg",
+            "width": "5472",
+            "height": "3648"
+          }
+        }
+      ]
+    }
+  ]
+}

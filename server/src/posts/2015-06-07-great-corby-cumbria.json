@@ -1,0 +1,74 @@
+{
+  "title": "Great Corby, Cumbria",
+  "date": "2015-06-07",
+  "blocks": [
+    {
+      "elements": [
+        {
+          "type": "image",
+          "master": {
+            "file": "IMG_7695.jpg",
+            "width": "5472",
+            "height": "3648"
+          }
+        },
+        {
+          "type": "image",
+          "master": {
+            "file": "IMG_7713.jpg",
+            "width": "5472",
+            "height": "3648"
+          }
+        },
+        {
+          "type": "image",
+          "master": {
+            "file": "IMG_7723.jpg",
+            "width": "4614",
+            "height": "3075"
+          }
+        },
+        {
+          "type": "image",
+          "master": {
+            "file": "IMG_7725.jpg",
+            "width": "4113",
+            "height": "2742"
+          }
+        },
+        {
+          "type": "image",
+          "master": {
+            "file": "IMG_7738.jpg",
+            "width": "5014",
+            "height": "3266"
+          }
+        },
+        {
+          "type": "image",
+          "master": {
+            "file": "IMG_7739.jpg",
+            "width": "5074",
+            "height": "3648"
+          }
+        },
+        {
+          "type": "image",
+          "master": {
+            "file": "IMG_7753.jpg",
+            "width": "4502",
+            "height": "2638"
+          }
+        },
+        {
+          "type": "image",
+          "master": {
+            "file": "IMG_7755.jpg",
+            "width": "5472",
+            "height": "3648"
+          }
+        }
+      ]
+    }
+  ]
+}

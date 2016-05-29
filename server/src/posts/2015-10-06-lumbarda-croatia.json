@@ -1,0 +1,50 @@
+{
+  "title": "Lumbarda, Croatia",
+  "date": "2015-10-06",
+  "blocks": [
+    {
+      "elements": [
+        {
+          "type": "image",
+          "master": {
+            "file": "IMG_8335.jpg",
+            "width": "5472",
+            "height": "3648"
+          }
+        },
+        {
+          "type": "image",
+          "master": {
+            "file": "IMG_8340.jpg",
+            "width": "5472",
+            "height": "3078"
+          }
+        },
+        {
+          "type": "image",
+          "master": {
+            "file": "IMG_8341.jpg",
+            "width": "5472",
+            "height": "3648"
+          }
+        },
+        {
+          "type": "image",
+          "master": {
+            "file": "IMG_8343.jpg",
+            "width": "5472",
+            "height": "3648"
+          }
+        },
+        {
+          "type": "image",
+          "master": {
+            "file": "IMG_8344.jpg",
+            "width": "5472",
+            "height": "3648"
+          }
+        }
+      ]
+    }
+  ]
+}
