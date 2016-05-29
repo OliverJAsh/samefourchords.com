@@ -39,6 +39,14 @@
         {
           "type": "image",
           "master": {
+            "file": "IMG_8110.jpg",
+            "width": "5472",
+            "height": "3648"
+          }
+        },
+        {
+          "type": "image",
+          "master": {
             "file": "IMG_8116.jpg",
             "width": "5472",
             "height": "3648"
