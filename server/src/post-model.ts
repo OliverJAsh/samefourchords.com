@@ -2,6 +2,7 @@ import { h } from 'virtual-dom';
 import * as URL from 'url';
 import { range } from 'lodash';
 import dateFormat = require('dateformat');
+import createSrc from './create-src';
 
 import { Post, PostImageElement, PostTextElement, PostElement } from './models';
 
@@ -56,8 +57,6 @@ export class ImageElement extends Element {
     ) { super() }
 }
 
-const imgixOrigin = 'https://samefourchords-com-images.imgix.net';
-
 // TODO: Class
 const isPostImageElement = (element: PostElement): element is PostImageElement => element.type === 'image';
 const isPostTextElement = (element: PostElement): element is PostTextElement => element.type === 'text';
@@ -79,16 +78,17 @@ export const createModel = (post: Post): Model => {
                 block.elements
                     .map((element): Element => {
                         if (isPostImageElement(element)) {
-                            const bucketPath = encodeURI(`/${post.href.replace(/^\//, '').replace(/\//g, '-')}/${element.master.file}`);
+                            // TODO: Slug/ID
+                            const slug = post.href.replace(/^\//, '').replace(/\//g, '-')
                             const heightAsProportionOfWidth = (element.master.height / element.master.width);
                             const widthAsProportionOfHeight = (element.master.width / element.master.height);
                             const createWidths = (dpr: number) => range(320 * dpr, element.master.width, 150 * dpr);
                             const srcset = createWidths(1).map((width): ImageElementSize => ({
-                                file: `${imgixOrigin}${bucketPath}?auto=format%2Ccompress&w=${width}`,
+                                file: createSrc(slug, element.master.file, width, false),
                                 width
                             }));
                             const highDprSrcset = createWidths(2).map((width): ImageElementSize => ({
-                                file: `${imgixOrigin}${bucketPath}?auto=format&w=${width}&q=25&usm=20`,
+                                file: createSrc(slug, element.master.file, width, true),
                                 width
                             }));
 

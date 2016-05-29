@@ -1,4 +1,4 @@
-import { h } from 'virtual-dom';
+import { h, VNode } from 'virtual-dom';
 import mainView from './main';
 import { groupBy, toPairs } from 'lodash';
 
@@ -40,6 +40,7 @@ export default (posts: Array<Post>) => {
             ))
         ])
     ]);
+    const head: VNode[] = [];
 
-    return mainView({ title: '', body });
+    return mainView({ title: '', head, body });
 };

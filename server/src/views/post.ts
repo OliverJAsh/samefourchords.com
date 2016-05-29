@@ -1,8 +1,10 @@
-import { h } from 'virtual-dom';
+import { h, VNode } from 'virtual-dom';
 import mainView from './main';
 import blocksFragment from '../fragments/blocks';
+import { Option } from '../option';
+import createSrc from '../create-src';
 
-import { Post } from '../models';
+import { Post, PostElement, PostImageElement } from '../models';
 import { Model, createModel } from '../post-model';
 
 const bodyView = (model: Model) => (
@@ -15,8 +17,20 @@ const bodyView = (model: Model) => (
     ])
 )
 
+const headOption = <X>(xs: X[]): Option<X> => Option(xs[0]);
+
+// TODO: Class
+const isPostImageElement = (element: PostElement): element is PostImageElement => element.type === 'image';
 export default (post: Post) => {
     const model = createModel(post);
+    const maybeFirstImage = headOption(post.blocks)
+        .flatMap(block => Option(block.elements.find(isPostImageElement)))
+        .map((imageElement: PostImageElement) => imageElement.master)
+    // TODO: Slug/ID
+    const slug = post.href.replace(/^\//, '').replace(/\//g, '-')
+    const head = maybeFirstImage.map(firstImage => (
+        [ h('meta', { property: 'og:image', content: createSrc(slug, firstImage.file, 1500, false) }, []) ]
+    )).getOrElse([])
     const body = bodyView(model);
-    return mainView({ title: post.title, body });
+    return mainView({ title: post.title, head, body });
 };

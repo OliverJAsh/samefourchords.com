@@ -7,5 +7,6 @@ interface ErrorViewState {
 
 export default (state: ErrorViewState) => mainView({
     title: state.message,
+    head: [],
     body: h('p', state.message)
 });
