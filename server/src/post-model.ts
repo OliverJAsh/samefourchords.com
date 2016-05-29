@@ -3,7 +3,7 @@ import * as URL from 'url';
 import { range } from 'lodash';
 import dateFormat = require('dateformat');
 
-import { Post, PostImageElement, PostTextElement } from './models';
+import { Post, PostImageElement, PostTextElement, PostElement } from './models';
 
 export interface Model {
     title: string;
@@ -59,8 +59,8 @@ export class ImageElement extends Element {
 const imgixOrigin = 'https://samefourchords-com-images.imgix.net';
 
 // TODO: Class
-const isPostImageElement = (element: PostTextElement | PostImageElement): element is PostImageElement => element.type === 'image';
-const isPostTextElement = (element: PostTextElement | PostImageElement): element is PostTextElement => element.type === 'text';
+const isPostImageElement = (element: PostElement): element is PostImageElement => element.type === 'image';
+const isPostTextElement = (element: PostElement): element is PostTextElement => element.type === 'text';
 
 const getGcd = (a: number, b: number): number => b ? getGcd(b, a % b) : a;
 const simplify = (numerator: number, denominator: number): [number, number] => {

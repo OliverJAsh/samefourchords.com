@@ -25,16 +25,17 @@ interface PostJsonImageElement {
 
 
 
-
 export interface Post {
     title: string;
     date: Date;
     blocks: Array<{
         title: string;
-        elements: Array<PostTextElement | PostImageElement>
+        elements: Array<PostElement>
     }>
     href: string;
 }
+
+export type PostElement = PostTextElement | PostImageElement;
 
 export interface PostTextElement {
     type: 'text';
