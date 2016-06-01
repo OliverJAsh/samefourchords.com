@@ -15,6 +15,14 @@
                 {
                     "type": "image",
                     "master": {
+                        "file": "IMG_6540.jpg",
+                        "width": 4284,
+                        "height": 2856
+                    }
+                },
+                {
+                    "type": "image",
+                    "master": {
                         "file": "IMG_6546.jpg",
                         "width": 3648,
                         "height": 3648
