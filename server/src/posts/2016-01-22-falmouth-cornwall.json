@@ -1,0 +1,42 @@
+{
+  "title": "Falmouth, Cornwall",
+  "date": "2016-01-22",
+  "blocks": [
+    {
+      "elements": [
+        {
+          "type": "image",
+          "master": {
+            "file": "IMG_8684.jpg",
+            "width": "5472",
+            "height": "3648"
+          }
+        },
+        {
+          "type": "image",
+          "master": {
+            "file": "IMG_8698.jpg",
+            "width": "5410",
+            "height": "3607"
+          }
+        },
+        {
+          "type": "image",
+          "master": {
+            "file": "IMG_8703.jpg",
+            "width": "4309",
+            "height": "2693"
+          }
+        },
+        {
+          "type": "image",
+          "master": {
+            "file": "IMG_8726.jpg",
+            "width": "5150",
+            "height": "3219"
+          }
+        }
+      ]
+    }
+  ]
+}
