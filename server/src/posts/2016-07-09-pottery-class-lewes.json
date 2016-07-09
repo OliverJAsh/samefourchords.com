@@ -1,0 +1,26 @@
+{
+  "title": "Pottery class, Lewes",
+  "date": "2016-07-09",
+  "blocks": [
+    {
+      "elements": [
+        {
+          "type": "image",
+          "master": {
+            "file": "IMG_9092.jpg",
+            "width": "5472",
+            "height": "3648"
+          }
+        },
+        {
+          "type": "image",
+          "master": {
+            "file": "IMG_9093.jpg",
+            "width": "5472",
+            "height": "3648"
+          }
+        }
+      ]
+    }
+  ]
+}
