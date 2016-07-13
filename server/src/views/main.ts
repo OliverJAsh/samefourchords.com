@@ -26,6 +26,8 @@ export default ({ title, head, body }: { title: string, head?: VNode[], body: VN
             h('meta', { charset: 'utf-8' }, []),
             h('title', `${title ? (title + ' – ') : ''}${siteTitle}`),
             h('meta', { name: 'viewport', content: 'width=device-width, initial-scale=1' }, []),
+            h('link', { rel: 'webmention', href: '/webmention' }, []),
+            h('link', { rel: 'feed', href: '/timeline'}, []),
             h('style', { innerHTML: css }, [])
         ].concat(
             renderNonBlockingCss('https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic')

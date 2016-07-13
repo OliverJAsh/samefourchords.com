@@ -38,15 +38,18 @@ interface ImageElementSize {
 }
 
 abstract class Element {
-    constructor() {}
+    constructor(
+        public syndications: string[]
+    ) {}
 }
 
 class TextElement extends Element {
-    constructor(public body: string) { super() }
+    constructor(syndications: string[], public body: string) { super(syndications) }
 }
 
 export class ImageElement extends Element {
     constructor(
+        syndications: string[],
         public heightAsProportionOfWidth: number,
         public widthAsProportionOfHeight: number,
         public masterWidth: number,
@@ -54,7 +57,7 @@ export class ImageElement extends Element {
         public srcset: Array<ImageElementSize>,
         public highDprSrcset: Array<ImageElementSize>,
         public firstSize: ImageElementSize
-    ) { super() }
+    ) { super(syndications) }
 }
 
 // TODO: Class
@@ -93,6 +96,7 @@ export const createModel = (post: Post): Model => {
                             }));
 
                             return new ImageElement(
+                                element.syndications || [],
                                 heightAsProportionOfWidth,
                                 widthAsProportionOfHeight,
                                 // TODO: Option?
@@ -105,7 +109,7 @@ export const createModel = (post: Post): Model => {
                             );
                         }
                         else if (isPostTextElement(element)) {
-                            return new TextElement(element.body);
+                            return new TextElement(element.syndications || [], element.body);
                         }
                     })
                     .map((element): Group => {

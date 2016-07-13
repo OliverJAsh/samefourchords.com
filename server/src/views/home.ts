@@ -16,6 +16,15 @@ const months = ['January', 'February', 'March', 'April', 'May', 'June',
 export default (posts: Array<Post>) => {
     const body = h('.flex-container', [
         h('.fix-width', [
+            h('p', [
+                'Photos by Oliver Joseph Ash. ',
+                h('a', { href: 'https://twitter.com/OliverJAsh', rel: 'me' }, 'Twitter'),
+                ', ',
+                h('a', { href: 'https://www.facebook.com/OliverJAsh', rel: 'me' }, 'Facebook'),
+                ', ',
+                h('a', { href: 'https://www.instagram.com/OliverJAsh', rel: 'me' }, 'Instagram'),
+                '.',
+            ]),
             h('p', [ h('a', { href: '/timeline' }, 'View all'), '.' ]),
             h('ul', (
                 (<[ string, Post[] ][]>toPairs(groupBy(posts, post => post.date.getFullYear())))

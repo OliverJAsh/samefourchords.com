@@ -8,7 +8,7 @@ import { createModel, Model } from '../post-model';
 
 const createPost = (model: Model) => (
     h('li.timeline-entry', [
-        h('article', [
+        h('article.h-entry', [
             h('header.article-header', [
                 h('h4', [ h('a', { href: model.href }, [ model.title ]) ]),
                 h('p', [ h('time', model.date) ])
@@ -22,7 +22,7 @@ const months = ['January', 'February', 'March', 'April', 'May', 'June',
     'July', 'August', 'September', 'October', 'November', 'December'];
 
 export default (posts: Array<Post>) => {
-    const body = h('ul', (
+    const body = h('ul.h-feed', (
         (<[ string, Post[] ][]>toPairs(groupBy(posts, post => post.date.getFullYear())))
             .reverse()
             .map(

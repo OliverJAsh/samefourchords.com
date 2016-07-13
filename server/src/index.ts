@@ -13,9 +13,12 @@ import * as compression from 'compression';
 import treeToHTML = require('vdom-to-html');
 import dateFormat = require('dateformat');
 import slug = require('slug');
-import { sortBy } from 'lodash';
+import { sortBy, last, flatten } from 'lodash';
 import * as denodeify from 'denodeify';
+import * as bodyParser from 'body-parser';
+import { h } from 'virtual-dom';
 
+import mainView from './views/main';
 import postView from './views/post';
 import homeView from './views/home';
 import timelineView from './views/timeline';
@@ -23,11 +26,14 @@ import errorView from './views/error';
 
 import redirectTrailingSlashes from './redirect-trailing-slashes';
 
-import { Post, PostJson } from './models';
+import { Post, PostJson, PostImageElement, PostElement } from './models';
+
+import createSrc from './create-src';
 
 const homeRegExp = /^\/$/;
 const postPrefixRegExp = /^\/(\d{4})\/(\d{2})\/(\d{2})\/([a-z0-9-]+)/;
 const postRegExp = new RegExp(postPrefixRegExp.source + /$/.source);
+const postElementRegExp = new RegExp(postPrefixRegExp.source + /\/(.+?)$/.source);
 
 const log = (message: string) => {
     console.log(`${new Date().toISOString()} ${message}`);
@@ -138,6 +144,42 @@ siteRouter.get(postRegExp, (req, res, next) => {
             }
         })
         .catch(next);
+});
+
+const postElementView = (href: string, element: PostImageElement) => {
+    const slug = href.replace(/^\//, '').replace(/\/IMG.+?$/, '').replace(/\//g, '-');
+    const body = h('.h-entry', {}, [
+        h('h2', 'Element'),
+        h('a', { href, className: 'u-url', rel: 'bookmark' }, []),
+        h('img.u-photo', { src: createSrc(slug, element.master.file, 2000, false) }, [])
+    ]);
+    return mainView({ title: 'Element', body })
+}
+const isPostImageElement = (element: PostElement): element is PostImageElement => element.type === 'image';
+siteRouter.get(postElementRegExp, (req, res, next) => {
+    const { 0: year, 1: month, 2: date, 3: title, 4: elementId } = req.params;
+    getPost(year, month, date, title)
+        .then(postJson => {
+            if (postJson) {
+                const post = postJsonToPost(postJson);
+                const element = flatten(post.blocks.map(block => block.elements))
+                    .find((element) => isPostImageElement(element) && elementId === last(element.master.file.split('/')).split('.')[0]) as PostImageElement;
+                const response = stringifyTree(postElementView(req.path, element));
+                res
+                    .set('Cache-Control', 'public, max-age=60')
+                    .send(response);
+            } else {
+                next();
+            }
+        })
+        .catch(next);
+});
+
+app.use(bodyParser.urlencoded({ extended: false }));
+siteRouter.post('/webmention', (req, res) => {
+    // TODO: Store in db, show on client
+    console.log(JSON.stringify(req.body, null, '\t'));
+    res.end();
 });
 
 app.use(redirectTrailingSlashes);

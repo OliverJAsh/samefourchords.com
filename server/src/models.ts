@@ -9,6 +9,7 @@ export interface PostJson {
 
 interface PostJsonElement {
     type: 'text' | 'image'
+    syndications: string[]
 }
 
 interface PostJsonTextElement extends PostJsonElement {
@@ -41,6 +42,7 @@ export interface Post {
 
 export interface PostElement {
     type: 'text' | 'image';
+    syndications: string[]
 }
 
 export interface PostTextElement extends PostElement {
