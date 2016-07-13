@@ -3,11 +3,15 @@ export interface PostJson {
     date: string;
     blocks: Array<{
         title: string;
-        elements: Array<PostJsonTextElement | PostJsonImageElement>
+        elements: Array<PostJsonElement>
     }>
 }
 
-interface PostJsonTextElement {
+interface PostJsonElement {
+    type: 'text' | 'image'
+}
+
+interface PostJsonTextElement extends PostJsonElement {
     type: 'text';
     body: string;
 }
@@ -18,7 +22,7 @@ interface PostJsonImageElementAsset {
     height: number;
 }
 
-interface PostJsonImageElement {
+interface PostJsonImageElement extends PostJsonElement {
     type: 'image';
     master: PostJsonImageElementAsset;
 }
@@ -35,9 +39,11 @@ export interface Post {
     href: string;
 }
 
-export type PostElement = PostTextElement | PostImageElement;
+export interface PostElement {
+    type: 'text' | 'image';
+}
 
-export interface PostTextElement {
+export interface PostTextElement extends PostElement {
     type: 'text';
     body: string;
 }
@@ -48,7 +54,7 @@ interface PostImageElementAsset {
     height: number;
 }
 
-export interface PostImageElement {
+export interface PostImageElement extends PostElement {
     type: 'image';
     master: PostImageElementAsset;
 }
