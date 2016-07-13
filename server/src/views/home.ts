@@ -6,7 +6,7 @@ import { Post } from '../models';
 
 const createPost = (post: Post) => (
     h('li', [
-        h('h4', [ h('a', { href: post.href }, [ post.title ]) ])
+        h('h4', [ h('a', { href: post.href }, post.title) ])
     ])
 );
 

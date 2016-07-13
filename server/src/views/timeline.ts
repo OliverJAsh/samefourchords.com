@@ -11,7 +11,7 @@ const createPost = (model: Model) => (
         h('article', [
             h('header.article-header', [
                 h('h4', [ h('a', { href: model.href }, [ model.title ]) ]),
-                h('p', [h('time', model.date)])
+                h('p', [ h('time', model.date) ])
             ]),
             blocksFragment(model)
         ])
