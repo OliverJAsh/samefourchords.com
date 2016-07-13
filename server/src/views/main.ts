@@ -20,7 +20,7 @@ const renderNonBlockingCss = (href: string): Array<VNode> => [
 
 const siteTitle = 'Same Four Chords';
 
-export default ({ title, head, body }: { title: string, head: VNode[], body: VNode }) => (
+export default ({ title, head, body }: { title: string, head?: VNode[], body: VNode }) => (
     h('html', [
         h('head', [
             h('meta', { charset: 'utf-8' }, []),
@@ -29,7 +29,7 @@ export default ({ title, head, body }: { title: string, head: VNode[], body: VNo
             h('style', { innerHTML: css }, [])
         ].concat(
             renderNonBlockingCss('https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic')
-        ).concat(head)),
+        ).concat(head || [])),
         h('body', [
             h('h1', [
                 h('a', { href: '/' }, siteTitle)

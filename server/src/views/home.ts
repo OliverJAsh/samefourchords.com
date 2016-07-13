@@ -40,7 +40,6 @@ export default (posts: Array<Post>) => {
             ))
         ])
     ]);
-    const head: VNode[] = [];
 
-    return mainView({ title: '', head, body });
+    return mainView({ title: '', body });
 };
