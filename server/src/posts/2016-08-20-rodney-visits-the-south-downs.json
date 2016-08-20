@@ -1,0 +1,74 @@
+{
+  "title": "Rodney visits the South Downs",
+  "date": "2016-08-20",
+  "blocks": [
+    {
+      "elements": [
+        {
+          "type": "image",
+          "master": {
+            "file": "IMG_9373.jpg",
+            "width": "5472",
+            "height": "3648"
+          }
+        },
+        {
+          "type": "image",
+          "master": {
+            "file": "IMG_9382.jpg",
+            "width": "5386",
+            "height": "3366"
+          }
+        },
+        {
+          "type": "image",
+          "master": {
+            "file": "IMG_9390.jpg",
+            "width": "5472",
+            "height": "3648"
+          }
+        },
+        {
+          "type": "image",
+          "master": {
+            "file": "IMG_9391.jpg",
+            "width": "5472",
+            "height": "3648"
+          }
+        },
+        {
+          "type": "image",
+          "master": {
+            "file": "IMG_9393.jpg",
+            "width": "5472",
+            "height": "3648"
+          }
+        },
+        {
+          "type": "image",
+          "master": {
+            "file": "IMG_9399.jpg",
+            "width": "5472",
+            "height": "3648"
+          }
+        },
+        {
+          "type": "image",
+          "master": {
+            "file": "IMG_9425.jpg",
+            "width": "3499",
+            "height": "3499"
+          }
+        },
+        {
+          "type": "image",
+          "master": {
+            "file": "IMG_9432.jpg",
+            "width": "5472",
+            "height": "3648"
+          }
+        }
+      ]
+    }
+  ]
+}
