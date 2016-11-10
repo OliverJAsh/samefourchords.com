@@ -1,0 +1,42 @@
+{
+    "title": "Saffron",
+    "date": "2016-10-16",
+    "blocks": [
+        {
+            "elements": [
+                {
+                    "type": "image",
+                    "master": {
+                        "file": "IMG_9627.jpg",
+                        "width": "4342",
+                        "height": "2895"
+                    }
+                },
+                {
+                    "type": "image",
+                    "master": {
+                        "file": "IMG_9647.jpg",
+                        "width": "5472",
+                        "height": "3648"
+                    }
+                },
+                {
+                    "type": "image",
+                    "master": {
+                        "file": "IMG_9648.jpg",
+                        "width": "5472",
+                        "height": "3648"
+                    }
+                },
+                {
+                    "type": "image",
+                    "master": {
+                        "file": "IMG_9654.jpg",
+                        "width": "5183",
+                        "height": "3455"
+                    }
+                }
+            ]
+        }
+    ]
+}

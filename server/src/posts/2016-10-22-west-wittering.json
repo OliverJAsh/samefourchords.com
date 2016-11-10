@@ -1,0 +1,42 @@
+{
+    "title": "West Wittering",
+    "date": "2016-10-22",
+    "blocks": [
+        {
+            "elements": [
+                {
+                    "type": "image",
+                    "master": {
+                        "file": "IMG_9722.jpg",
+                        "width": "5472",
+                        "height": "3648"
+                    }
+                },
+                {
+                    "type": "image",
+                    "master": {
+                        "file": "IMG_9736.jpg",
+                        "width": "4529",
+                        "height": "3019"
+                    }
+                },
+                {
+                    "type": "image",
+                    "master": {
+                        "file": "IMG_9810.jpg",
+                        "width": "5147",
+                        "height": "3431"
+                    }
+                },
+                {
+                    "type": "image",
+                    "master": {
+                        "file": "IMG_9824.jpg",
+                        "width": "5472",
+                        "height": "3648"
+                    }
+                }
+            ]
+        }
+    ]
+}
