@@ -1,7 +1,7 @@
 export class NoSuchElementError extends Error {
     public name: string;
     public message: string;
-    public stack: string;
+    public stack: string | undefined;
 
     constructor() {
         super('No such element.');

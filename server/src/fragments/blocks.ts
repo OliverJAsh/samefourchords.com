@@ -43,7 +43,7 @@ const renderImage = (element: ImageElement) => (
 export default (model: Model) => (
     h('.blocks', model.blocks.map(block => (
         h('.block', [
-            block.title ? h('h5', block.title) : null,
+            block.title ? h('h5', block.title) : null as any,
             h('.element-groups', (
                 block.elementGroups.map(elementGroup => {
                     return h('.element-group', { className: elementGroup.type }, (

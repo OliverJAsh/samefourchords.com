@@ -28,7 +28,7 @@ const log = (message: string) => {
 };
 
 process.on('uncaughtException', (error: Error) => {
-    log(error.stack);
+    if (error.stack) log(error.stack);
     process.exit(1);
 });
 
@@ -145,7 +145,7 @@ siteRouter.use((_req, res) => {
 app.use('/', siteRouter);
 
 app.use((error: Error, _req: express.Request, res: express.Response, _next: express.NextFunction) => {
-    log(error.stack);
+    if (error.stack) log(error.stack);
     res.sendStatus(500);
 });
 
