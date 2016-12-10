@@ -11,22 +11,6 @@ interface PostJsonElement {
     type: 'text' | 'image'
 }
 
-interface PostJsonTextElement extends PostJsonElement {
-    type: 'text';
-    body: string;
-}
-
-interface PostJsonImageElementAsset {
-    file: string;
-    width: number;
-    height: number;
-}
-
-interface PostJsonImageElement extends PostJsonElement {
-    type: 'image';
-    master: PostJsonImageElementAsset;
-}
-
 
 
 export interface Post {

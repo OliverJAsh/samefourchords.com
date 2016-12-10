@@ -1,5 +1,3 @@
-import { h } from 'virtual-dom';
-import * as URL from 'url';
 import { range } from 'lodash';
 import dateFormat = require('dateformat');
 import createSrc from './create-src';

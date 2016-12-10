@@ -1,4 +1,4 @@
-import { h, VNode } from 'virtual-dom';
+import { h } from 'virtual-dom';
 import mainView from './main';
 import blocksFragment from '../fragments/blocks';
 import { Option } from '../option';

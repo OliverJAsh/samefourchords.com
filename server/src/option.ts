@@ -54,11 +54,11 @@ export class Some<A> implements Option<A> {
         return this.value;
     }
 
-    getOrElse(defaultValue: A): A {
+    getOrElse(_defaultValue: A): A {
         return this.value;
     }
 
-    orElse(alternative: Option<A>): Option<A> {
+    orElse(_alternative: Option<A>): Option<A> {
         return this;
     }
 
@@ -113,23 +113,23 @@ class NoneImpl<A> implements Option<A> {
         return matcher.None();
     }
 
-    map<B>(f: (value: A) => B): Option<B> {
+    map<B>(_f: (value: A) => B): Option<B> {
         return None;
     }
 
-    flatMap<B>(f: (value: A) => Option<B>): Option<B> {
+    flatMap<B>(_f: (value: A) => Option<B>): Option<B> {
         return None;
     }
 
-    filter(predicate: (value: A) => boolean): Option<A> {
+    filter(_predicate: (value: A) => boolean): Option<A> {
         return this;
     }
 
-    reject(predicate: (value: A) => boolean): Option<A> {
+    reject(_predicate: (value: A) => boolean): Option<A> {
         return this;
     }
 
-    foreach(f: (value: A) => void) {
+    foreach(_f: (value: A) => void) {
         return;
     }
 }

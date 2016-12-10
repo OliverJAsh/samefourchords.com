@@ -93,7 +93,7 @@ siteRouter.use((req, res, next) => {
     }
 });
 
-siteRouter.get(homeRegExp, (req, res, next) => (
+siteRouter.get(homeRegExp, (_req, res, next) => (
     postsPromise
         .then(posts => sortPostsByDateDesc(posts.map(postJsonToPost)))
         .then(posts => {
@@ -105,7 +105,7 @@ siteRouter.get(homeRegExp, (req, res, next) => (
         .catch(next)
 ));
 
-siteRouter.get('/timeline', (req, res, next) => (
+siteRouter.get('/timeline', (_req, res, next) => (
     postsPromise
         .then(posts => sortPostsByDateDesc(posts.map(postJsonToPost)))
         .then(posts => {
@@ -136,7 +136,7 @@ siteRouter.get(postRegExp, (req, res, next) => {
 
 app.use(redirectTrailingSlashes);
 
-siteRouter.use((req, res) => {
+siteRouter.use((_req, res) => {
     const state = { statusCode: 404, message: http.STATUS_CODES[404] };
     const response = stringifyTree(errorView(state));
     res.status(404).send(response);
@@ -144,7 +144,7 @@ siteRouter.use((req, res) => {
 
 app.use('/', siteRouter);
 
-app.use((error: Error, req: express.Request, res: express.Response, next: express.NextFunction) => {
+app.use((error: Error, _req: express.Request, res: express.Response, _next: express.NextFunction) => {
     log(error.stack);
     res.sendStatus(500);
 });
