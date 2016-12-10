@@ -5,7 +5,9 @@
         "module": "commonjs",
         "allowJs": true,
         "outDir": "./target",
-        "sourceMap": true
+        "sourceMap": true,
+        "noImplicitThis": true,
+        "noImplicitReturns": true
     },
     "files": [
         "./typings/index.d.ts",

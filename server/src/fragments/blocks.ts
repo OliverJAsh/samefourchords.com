@@ -47,7 +47,8 @@ export default (model: Model) => (
             h('.element-groups', (
                 block.elementGroups.map(elementGroup => {
                     return h('.element-group', { className: elementGroup.type }, (
-                        (() => {
+                        // TODO: Use discriminated union instead
+                        ((): any => {
                             if (elementGroup instanceof ImageSquarePairGroup) {
                                 return elementGroup.elements.map(renderImage)
                             } else if (elementGroup instanceof ImageGroup) {

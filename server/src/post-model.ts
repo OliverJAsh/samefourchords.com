@@ -76,7 +76,9 @@ export const createModel = (post: Post): Model => {
             title: block.title,
             elementGroups: (
                 block.elements
-                    .map((element): Element => {
+                    // TODO: Use discriminated union instead
+                    // .map((element): Element => {
+                    .map((element): any => {
                         if (isPostImageElement(element)) {
                             // TODO: Slug/ID
                             const slug = post.href.replace(/^\//, '').replace(/\//g, '-')
@@ -108,7 +110,9 @@ export const createModel = (post: Post): Model => {
                             return new TextElement(element.body);
                         }
                     })
-                    .map((element): Group => {
+                    // TODO: Use discriminated union instead
+                    // .map((element): Group => {
+                    .map((element): any => {
                         if (element instanceof ImageElement) {
                             return new ImageGroup(element);
                         } else if (element instanceof TextElement) {
