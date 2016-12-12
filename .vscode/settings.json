@@ -6,6 +6,7 @@
         "server/target": true,
         "server/typings": true,
         "client/target": true,
-        "client/typings": true
+        "client/typings": true,
+        "scripts/target": true
     }
 }
