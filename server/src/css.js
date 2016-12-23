@@ -4,40 +4,56 @@ body {
     margin: 1rem;
 }
 
-body,
-article,
-.block,
-.flex-container,
-.timeline-entry,
-.element-groups {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-main,
-.blocks,
-.timeline-entry ul,
-.timeline-entry article,
-.element-groups {
-    width: 100%;
-}
-
-.element-group {
-    display: flex;
-}
-
 h1,
 .article-header,
+.block-title,
 .element-group.text,
 .fix-width {
     max-width: 40rem;
+    /*Center*/
+    margin-left: auto;
+    margin-right: auto;
     width: 100%;
 }
 
-.element-group.image {
-    width: calc(100% + 2rem);
-    justify-content: center;
+.block-title {
+    text-align: center;
+}
+
+@supports (display: flex) {
+    .element-groups {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .element-group.image {
+        /*TODO: flex-wrap*/
+        width: calc(100% + 2rem);
+        display: flex;
+        /*When the image is smaller than our container, still center it*/
+        justify-content: center;
+    }
+
+    @media (max-width: 767px) {
+        .element-group.image-square-pair {
+            width: calc(100% + 2rem);
+            display: flex;
+            flex-direction: column;
+            /*When the image is smaller than our container, still center it*/
+            align-items: center;
+        }
+    }
+
+    @media (min-width: 768px) {
+        .element-group.image-square-pair {
+            /*Body gutter + gutter*/
+            width: calc(100% + 2rem + 1rem);
+            display: flex;
+            /*When the image is smaller than our container, still center it*/
+            justify-content: center;
+        }
+    }
 }
 
 .element-group.image:not(:last-child),
@@ -46,12 +62,6 @@ h1,
 }
 
 @media (max-width: 767px) {
-    .element-group.image-square-pair {
-        width: calc(100% + 2rem);
-        flex-direction: column;
-        align-items: center;
-    }
-
     .element-group.image-square-pair .image-element {
         margin-bottom: 1rem;
     }
@@ -63,10 +73,7 @@ h1,
 
 @media (min-width: 768px) {
     .element-group.image-square-pair {
-        /* Gutter + body gutter */
-        width: calc(1rem + 2rem + 100%);
         margin-left: -1rem;
-        justify-content: center;
     }
 
     .element-group.image-square-pair .image-element {
@@ -80,8 +87,6 @@ h1,
 
 .image-element {
     width: 100%;
-    display: flex;
-    justify-content: center;
 }
 
 .image-element-inner-1 {
