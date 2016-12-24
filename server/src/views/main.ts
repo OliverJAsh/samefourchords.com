@@ -30,8 +30,8 @@ export default ({ title, head, body }: { title: string, head?: VNode[], body: VN
         ].concat(
             renderNonBlockingCss('https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic')
         ).concat(head || [])),
-        h('body', [
-            h('h1', [
+        h('body.vertical-small-island-until-tablet.island-at-tablet', [
+            h('h1.small-island', [
                 h('a', { href: '/' }, siteTitle)
             ]),
             h('main', [ body ]),

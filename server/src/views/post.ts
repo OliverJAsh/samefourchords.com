@@ -9,9 +9,9 @@ import { Model, createModel } from '../post-model';
 
 const bodyView = (model: Model) => (
     h('article', [
-        h('header.article-header', [
-            h('h2', [ h('a', { href: model.href }, model.title) ]),
-            h('p', [ h('time', model.date) ])
+        h('header.article-header.nested-small-island', [
+            h('h2.item', [ h('a', { href: model.href }, model.title) ]),
+            h('p.item', [ h('time', model.date) ])
         ]),
         blocksFragment(model)
     ])

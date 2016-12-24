@@ -3,13 +3,15 @@ import { h } from 'virtual-dom';
 import { Model, ImageSquarePairGroup, ImageGroup, TextGroup, ImageElement } from '../post-model';
 
 const renderImage = (element: ImageElement) => (
-    h('.image-element', {
+    /*responsive image constrained by width and viewport height*/
+    /*http://jsbin.com/tuvaha/1/edit?html,css,output*/
+    h('.vertical-small-island.center', {
         style: { maxWidth: `calc(${element.widthAsProportionOfHeight} * 100vh)` }
     }, [
-        h('.image-element-inner-1', {
+        h('.center', {
             style: { maxWidth: `${element.masterWidth}px` }
         }, [
-            h('.image-element-inner-2', {
+            h('.reserved-image-container', {
                 style: { paddingBottom: `${element.heightAsProportionOfWidth * 100}%` }
             }, [
                 h('picture', [
@@ -43,21 +45,25 @@ const renderImage = (element: ImageElement) => (
 export default (model: Model) => (
     h('.blocks', model.blocks.map(block => (
         h('.block', [
-            block.title ? h('h5.block-title', block.title) : null as any,
+            block.title ? h('h5.block-title.small-island', block.title) : null as any,
             h('.element-groups', (
-                block.elementGroups.map(elementGroup => {
-                    return h('.element-group', { className: elementGroup.type }, (
-                        // TODO: Use discriminated union instead
-                        ((): any => {
-                            if (elementGroup instanceof ImageSquarePairGroup) {
-                                return elementGroup.elements.map(renderImage)
-                            } else if (elementGroup instanceof ImageGroup) {
-                                return [ renderImage(elementGroup.element) ];
-                            } else if (elementGroup instanceof TextGroup) {
-                                return [ h('.text-element', { innerHTML: elementGroup.element.body }, []) ];
-                            }
-                        })()
-                    ));
+                // TODO: Use discriminated union instead, remove any
+                block.elementGroups.map((elementGroup): any => {
+                    if (elementGroup instanceof ImageSquarePairGroup) {
+                        return h('.element-group', { className: 'image' },
+                            elementGroup.elements
+                                .map(renderImage)
+                        );
+                    } else if (elementGroup instanceof ImageGroup) {
+                        return h('.element-group', { className: 'image' },
+                            [elementGroup.element]
+                                .map(renderImage)
+                        );
+                    } else if (elementGroup instanceof TextGroup) {
+                        return h('.element-group', { className: 'text' }, [
+                            h('.text-element.spaced-items', { innerHTML: elementGroup.element.body }, [])
+                        ]);
+                    }
                 })
             ))
         ])
