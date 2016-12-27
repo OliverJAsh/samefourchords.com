@@ -79,15 +79,10 @@ h1,
 }
 
 @media (min-width: 768px) {
-    .element-groups {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
     .element-group.image {
         /*Negate body padding*/
-        width: calc(100% + (var(--unit-horizontal) * 2));
+        margin-left: calc(var(--unit-horizontal) * -1);
+        margin-right: calc(var(--unit-horizontal) * -1);
     }
 }
 
