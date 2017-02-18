@@ -1,0 +1,58 @@
+{
+    "title": "Crackington Haven and the Strangles, Cornwall",
+    "date": "2017-02-15",
+    "blocks": [
+        {
+            "elements": [
+                {
+                    "type": "image",
+                    "master": {
+                        "file": "IMG_0946.jpg",
+                        "width": 2918,
+                        "height": 3647
+                    }
+                },
+                {
+                    "type": "image",
+                    "master": {
+                        "file": "IMG_0949.jpg",
+                        "width": 5472,
+                        "height": 3648
+                    }
+                },
+                {
+                    "type": "image",
+                    "master": {
+                        "file": "IMG_0965.jpg",
+                        "width": 3648,
+                        "height": 5472
+                    }
+                },
+                {
+                    "type": "image",
+                    "master": {
+                        "file": "IMG_0973.jpg",
+                        "width": 3524,
+                        "height": 4405
+                    }
+                },
+                {
+                    "type": "image",
+                    "master": {
+                        "file": "IMG_0979.jpg",
+                        "width": 5293,
+                        "height": 3308
+                    }
+                },
+                {
+                    "type": "image",
+                    "master": {
+                        "file": "IMG_0983.jpg",
+                        "width": 5218,
+                        "height": 3261
+                    }
+                }
+            ]
+        }
+    ]
+}
