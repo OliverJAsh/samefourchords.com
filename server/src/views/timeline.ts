@@ -9,9 +9,9 @@ import { createModel, Model } from '../post-model';
 const createPost = (model: Model) => (
     h('li.timeline-entry', [
         h('article', [
-            h('header.article-header', [
-                h('h4', [ h('a', { href: model.href }, [ model.title ]) ]),
-                h('p', [ h('time', model.date) ])
+            h('header.article-header.nested-small-island', [
+                h('h4.item', [ h('a', { href: model.href }, [ model.title ]) ]),
+                h('p.item', [ h('time', model.date) ])
             ]),
             blocksFragment(model)
         ])
@@ -28,13 +28,13 @@ export default (posts: Array<Post>) => {
             .map(
                 ([ year, posts ]) => (
                     h('li.timeline-entry', [
-                        h('h2.fix-width', year),
+                        h('h2.fix-width.small-island', year),
                         h('ul', (
                             (<[ string, Post[] ][]>toPairs(groupBy(posts, post => post.date.getMonth())))
                                 .reverse()
                                 .map(([ monthIndex, posts ]) => (
                                     h('li.timeline-entry', [
-                                        h('h3.fix-width', months[parseInt(monthIndex)]),
+                                        h('h3.fix-width.small-island', months[parseInt(monthIndex)]),
                                         h('ul', posts.map(createModel).map(createPost))
                                     ])
                                 ))
