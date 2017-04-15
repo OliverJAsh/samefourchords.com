@@ -128,4 +128,9 @@ ul {
     list-style: none;
     padding-left: 0;
 }
+
+blockquote {
+    margin-top: unset;
+    margin-bottom: unset;
+}
 `;
