@@ -10,7 +10,7 @@ npm start
 ## Deploy
 
 ```
-git push heroku master
+git push
 ```
 
 ## Sync
